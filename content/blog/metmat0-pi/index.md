@@ -42,9 +42,9 @@ Metode poligon ini berangkat dari asumsi bahwa lingkaran adalah bentuk segi-tak-
 
 Sekarang tambah jumlah sisi pada kedua segitiga tersebut. Segiempat luar dan dalam akan terlihat lebih mepet ke lingkaran. Tambah lagi sisinya, semakin banyak jumlah sisinya kedua poligon luar dan dalam akan semakin mepet ke lingkaran.
 
-Dengan metode ini, Archimedes berhasil mendapatkan nilai pi berada di antara 223/71 dengan 22/7, atau dalam bentuk desimal, 3,1408… < pi < 3,1428, dengan menggunakan bentuk poligon segi-96. Metode serupa digunakan untuk meraih nilai-nilai pi yang lebih akurat, seperti Ptolemy (150 M) (pi = 377/120) dan Tsu Chung-Chih (abad kelima) (pi akurat sampai ke tujuh digit).
- 
 ![](archimedes.png)
+
+Dengan metode ini, Archimedes berhasil mendapatkan nilai pi berada di antara 223/71 dengan 22/7, atau dalam bentuk desimal, 3,1408… < pi < 3,1428, dengan menggunakan bentuk poligon segi-96. Metode serupa digunakan untuk meraih nilai-nilai pi yang lebih akurat, seperti Ptolemy (150 M) (pi = 377/120) dan Tsu Chung-Chih (abad kelima) (pi akurat sampai ke tujuh digit).
 
 ![](leibniz.png)
 
@@ -60,11 +60,11 @@ Dengan terobosan baru berupa komputer, pemecahan rekor digit terbanyak pi hanyal
 
 Kenapa matematikawan rela mencari banyak digit pi sampai triliunan? Sebelum era komputer, motivasi untuk mencari sebanyak mungkin digit pi adalah untuk mencari pola berulang dalam pecahan pi, atau dalam kata lain mencoba membuktikan bahwa pi adalah bilangan rasional. Barulah di abad ke-18 akhir Lambert dan Legendre membuktikan bahwa pi adalah bilangan irasional, atau bilangan yang tak dapat dinyatakan dalam pecahan bilangan bulat.
 
-<div style="text-align: center;">1/11=0.090909…</div>
+1/11=0.090909…
 
 Angka “09” berulang, oleh karena itu 1/11 adalah bilangan rasional.
 
-<div style="text-align: center;">π=3.1415…</div>
+π=3.1415…
 
 Tidak ada angka berulang, oleh karena itu π bukanlah bilangan rasional.
 
