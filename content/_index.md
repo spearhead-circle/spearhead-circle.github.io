@@ -14,3 +14,5 @@ Jangan lupa untuk follow social media kami di:
 [Facebook](https://www.facebook.com/profile.php?id=100089620167900)
 
 [Instagram](https://www.instagram.com/spearhead_circle)
+
+[Tokopedia](https://www.tokopedia.com/spearheadcircle)
