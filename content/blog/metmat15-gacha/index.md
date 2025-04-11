@@ -77,8 +77,8 @@ Di bawah ini, ditampilkan tabel dengan segala kemungkinan pengambilan bola. Pada
         <td>3</td>
     </tr>
     <tr id="borderless">
-        <td>1</td>
-        <td>4</td>
+        <td id="highlight">1</td>
+        <td id="highlight">4</td>
         <td id="borderless"></td>
         <td>2</td>
         <td>4</td>
@@ -99,8 +99,8 @@ Di bawah ini, ditampilkan tabel dengan segala kemungkinan pengambilan bola. Pada
         <td>3</td>
         <td>1</td>
         <td id="borderless"></td>
-        <td>4</td>
-        <td>1</td>
+        <td id="highlight">4</td>
+        <td id="highlight">1</td>
     </tr>
     <tr id="borderless">
         <td>3</td>
