@@ -78,7 +78,7 @@ Pada contoh di atas tadi, bila kita menerima 0110010, kita akan mendapatkan:
 |----|----|----|
 | 1  | 1  | 1  |
 
-Jika kita jejer menjadi 111, kita dapatkan konversi biner ke desimal 111 → 7 (yakni 1*20 + 1*21 + 1*22), kita ketahui bahwa galat terjadi pada digit ketujuh (dan bisa segera kita koreksi dengan menukar 0 ke 1). Salah satu ide jenius dari penyusunan ini adalah skema h1, h2, dan h3 yang dapat memberi tahu di mana ada galat dan mengoreksi galatnya. Misalkan tidak terjadi galat, kita dapatkan bahwa:
+Jika kita jejer menjadi 111, kita dapatkan konversi biner ke desimal 111 → 7 (yakni 1\*2<sup>0</sup> + 1\*2<sup>1</sup> + 1*2<sup>2</sup>), kita ketahui bahwa galat terjadi pada digit ketujuh (dan bisa segera kita koreksi dengan menukar 0 ke 1). Salah satu ide jenius dari penyusunan ini adalah skema h1, h2, dan h3 yang dapat memberi tahu di mana ada galat dan mengoreksi galatnya. Misalkan tidak terjadi galat, kita dapatkan bahwa:
 
 h1 = a1+a3+a5+a7
 
@@ -94,7 +94,6 @@ Jika ada kesalahan, misal a4 berubah menjadi a4 + ε, kita akan mendapatkan
 | h1          | h2          | h3              |
 |-------------|-------------|-----------------|
 | a1+a3+a5+a7 | a2+a3+a6+a7 | (a4+ε)+a5+a6+a7 |
-|-------------|-------------|-----------------|
 | = 0         | = 0         | = ε             |
 
 Karena skema kita hanyalah 0 atau 1, ε berarti bernilai 1 (karena 0 + 1 = 1 dan 1 + 1 = 0, *bit flip* sama saja dengan penjumlahan dengan 1). Dengan kata lain, kita dapatkan 100 (pada basis 2) yang berarti 4 pada basis 10 (desimal). Jadi, galat terjadi pada bit keempat. Bagaimana bila terjadi dua kesalahan? Untuk menjawab pertanyaan tersebut, kita perlu mengenal satu konsep lagi. Misalkan A =(a1, a2, a3,a4,a5,a6,a7) dan B = (b1, b2, b3,b4,b5,b6,b7) dua buah kata kode. Kita katakan **jarak Hamming** dari A dan B sebagai banyaknya bit yang berbeda di posisi yang sama dari A dan B. Kita notasikan jarak Hamming dari A dan B sebagai d(A,B) (dari kata *distance*). Sebagai contoh, katakode A = 0000000 dan B = 1110000 memiliki jarak Hamming 3, karena tiga bit pertama dari B bernilai berbeda dari A. Sekarang, dengan skema pengkodean yang kita miliki, kita mengkodekan (d1,d2, d3, d4) menjadi (p1, p2, d1, p3, d2, d3, d4). Mungkinkah pengkodean tersebut menghasilkan dua katakode dengan jarak Hamming 2?

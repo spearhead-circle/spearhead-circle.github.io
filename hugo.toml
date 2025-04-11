@@ -55,3 +55,8 @@ enableDefault = true
 
 [markup.goldmark.renderHooks.link]
 enableDefault = true
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = true
+xhtml = false
