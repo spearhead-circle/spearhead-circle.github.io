@@ -39,6 +39,8 @@ ignoreErrors = ["error-disable-taxonomy"]
   # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
   title = "Spearhead Circle"
 
+  math = true
+
   # This theme will, by default, inject a made-with-line at the bottom of the page.
   # You can turn it off, but we would really appreciate if you don’t :-).
   # hideMadeWithLine = true
@@ -60,3 +62,10 @@ enableDefault = true
 hardWraps = false
 unsafe = true
 xhtml = false
+
+[markup.goldmark.extensions]
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [['\[', '\]'], ['$$', '$$']]
+    inline = [['\(', '\)']]
