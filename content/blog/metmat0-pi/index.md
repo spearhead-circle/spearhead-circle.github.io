@@ -50,6 +50,10 @@ Dengan metode ini, Archimedes berhasil mendapatkan nilai pi berada di antara 223
 
 Metode poligon sudah ada selama sekitar 1600 tahun, dan rekor angka pi terakurat masih berada di 14 bilangan di belakang koma. Rekor tersebut dipegang oleh Al-Kashi dari Samarkand pada sekitar tahun 1430. Penemuan kalkulus oleh Newton dan Leibniz pada tahun 1600an menyumbangkan banyak rumus-rumus baru dalam penemuan digit-digit pi lainnya, dengan salah satu metode umum yang dipakai adalah dengan ekspansi deret Taylor.
 
+$$
+tan^{-1}x = \displaystyle \int_{0}^{x}f(x)dx
+$$
+
 ![](rumus.png)
 
 Sampai pada tahun 1946, penghitungan nilai pi dilakukan secara manual di atas kertas dengan rekor tertinggi 620 digit oleh D.F. Ferguson. Terobosan berikutnya dalam penghitungan digit pi datang bersamaan dengan ditemukannya teknologi baru: **komputer**.
