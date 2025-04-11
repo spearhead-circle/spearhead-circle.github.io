@@ -4,7 +4,7 @@ date = "2024-11-09"
 description = "Mettamatika volume 1,5: Paul Erdos"
 tags = [
     "Mettamatika",
-    "Mettamatika vol. 0",
+    "Mettamatika vol. 1,5",
     "Mettamatika Paruh"
 ]
 +++
