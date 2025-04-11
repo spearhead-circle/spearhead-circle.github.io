@@ -54,15 +54,15 @@ Metta terpikir sesuatu. Sebenarnya mudah saja untuk CD tetap bisa mendapatkan in
 
 Untuk menyederhanakan, tinjau informasi yang dikodekan menjadi empat buah angka 0/1 saja. Masing-masing nilai ini bisa kita terjemahkan kemudian menjadi pesan tertentu. Misal, kita bisa saja mengartikan 0101 sebagai pesan “Beli dua buah semangka” dan 1101 sebagai pesan “Jual tiga buah anggur”. Kita sebut masing-masing angka itu sebagai **bit data**. Jika hanya ingin mengecek eksistensi galat, kita bisa saja menambahkan satu **bit paritas (bit pengecekan)** lalu melakukan serangkaian operasi (seperti pada algoritma Luhn) agar kalkulasinya menghasilkan suatu angka yang kita tentukan. Bit paritas di sini bisa kita kontrol nilainya agar menghasilkan angka yang barusan kita tentukan. Sebagai contoh, kita mengatur agar jumlah seluruh bitnya (termasuk bit paritas) haruslah genap. Jadi, untuk bit data 1101:
 * Kita bisa menambah 1 angka sebagai bit paritas agar hasil penjumlahan digitnya genap. Informasi kita menjadi 11011. Jika ada satu bit yang berubah (misal 11011 berubah menjadi 11010), kita segera tahu bahwa ada kesalahan pada bit data, tetapi tidak tahu ada di mana. Ketika ada dua bit yang berubah kita juga tidak akan tahu bahwa ada kesalahan.
-* Atau kita bisa sedikit lebih cerdas, kita bisa menyimpan jumlah dari kombinasi tiga bit data. Notasikan bit data ke-n sebagai dn, kita bisa menyimpan d1+d2+d4, d1+d3+d4, dan d2+d3+d4. Tentu karena pada skema kode kita hanya menginginkan angka 0 atau 1 saja, kita cukup simpan sebagai 0 bila hasil penjumlahannya genap dan 1 bila ganjil. Sebagai konsekuensi dari sistem penjumlahan seperti ini, jumlah dari dua bilangan yang sama senantiasa nol (karena jumlah dua bilangan apapun pastilah genap – dengan kata lain, x+x = 2x). Tiga jumlahan ini cukup untuk kita menyimpan informasi dari bit-bit data kita lainnya, seperti yang terlihat pada diagram Venn di bawah.
+* Atau kita bisa sedikit lebih cerdas, kita bisa menyimpan jumlah dari kombinasi tiga bit data. Notasikan bit data ke-n sebagai \(d_n\), kita bisa menyimpan \(d_1+d_2+d_4\), \(d_1+d_3+d_4\), dan \(d_2+d_3+d_4\). Tentu karena pada skema kode kita hanya menginginkan angka 0 atau 1 saja, kita cukup simpan sebagai 0 bila hasil penjumlahannya genap dan 1 bila ganjil. Sebagai konsekuensi dari sistem penjumlahan seperti ini, jumlah dari dua bilangan yang sama senantiasa nol (karena jumlah dua bilangan apapun pastilah genap – dengan kata lain, \(x+x = 2x\)). Tiga jumlahan ini cukup untuk kita menyimpan informasi dari bit-bit data kita lainnya, seperti yang terlihat pada diagram Venn di bawah.
 
 ![](venn.png)
 
-Dari diagram di atas, terlihat juga kenapa kita tidak perlu menyimpan kombinasi d1+d2+d3, yakni karena informasi untuk mengecek bila terjadi galat pada salah satu dari d1, d2, atau d3 kita akan mendeteksinya via kombinasi lainnya. Kita namai masing-masing kombinasinya p1, p2, dan p3 (p dari kata “paritas”). 
+Dari diagram di atas, terlihat juga kenapa kita tidak perlu menyimpan kombinasi \(d_1+d_2+d_3\), yakni karena informasi untuk mengecek bila terjadi galat pada salah satu dari \(d_1\), \(d_2\), atau \(d_3\) kita akan mendeteksinya via kombinasi lainnya. Kita namai masing-masing kombinasinya \(p_1\), \(p_2\), dan \(p_3\) (p dari kata “paritas”). 
 
-|    p1    |    p2    |    p3    |
-|----------|----------|----------|
-| d1+d2+d4 | d1+d3+d4 | d2+d3+d4 |
+|     \(p_1\)     |     \(p_2\)     |     \(p_3\)     |
+|-----------------|-----------------|-----------------|
+| \(d_1+d_2+d_4\) | \(d_1+d_3+d_4\) | \(d_2+d_3+d_4\) |
 
 Jika informasi yang kita ingin kirimkan adalah 1011, kita simpan dia dalam bentuk (p1, p2, d1, p3, d2, d3, d4), atau menjadi 0110011. Kita sebut ini sebagai **katakode**. Andai terdapat kesalahan, misal ia berubah menjadi 0110010, kita langsung tahu bahwa ada galat pada data yang kita terima karena d1+d2+d4 bernilai 1 dari seharusnya bernilai 0. Lebih canggih lagi, kita bisa mendesain kalkulasi berikut. 
 
