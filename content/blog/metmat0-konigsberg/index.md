@@ -80,9 +80,8 @@ Halo, saya Rubi! Mahasiswa matematika yang sedang menikmati/menderita studi lanj
 Aku ingin membuat matematika.menjadi keilmuan yang terlihat lebih keren. Aku ingin menyampaikan sisi matematika yang jarang terlihat di sekolah dan di Indonesia. Matematika sebagai ilmu yang indah, bermanfaat, dan memuaskan. Kalian tidak harus menjadi ahli matematika, minimal mau mengapresiasi dan mencoba sedikit.
 
 Medsos dan Portofolio:
-
-[https://twitter.com/Rubicoded](https://twitter.com/Rubicoded)
-[https://linktr.ee/mugmugrubio](https://linktr.ee/mugmugrubio)
+* [https://twitter.com/Rubicoded](https://twitter.com/Rubicoded)
+* [https://linktr.ee/mugmugrubio](https://linktr.ee/mugmugrubio)
 
  
 ## Referensi
