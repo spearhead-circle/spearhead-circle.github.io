@@ -56,7 +56,6 @@ Erdős sendiri pernah menceritakan bahwa dia punya skenario ideal yang agak dram
 Dan impiannya terwujud, meski tidak sedramatis skenario yang dia bayangkan. Pada tanggal 20 September 1996, Erdős meninggal dunia karena serangan jantung saat menghadiri sebuah konferensi di Warsaw, Poland. Erdős meninggal tanpa meninggalkan keturunan. Beliau dimakamkan bersama orangtuanya di Kozma Street Cemetery, di Budapest. Sebagai *epitaph* di batu nisannya, beliau pernah mengusulkan “*Végre nem butulok tovább*”, yang berarti “Akhirnya, aku berhenti bertambah bodoh.” Meski nisan aslinya tidak bertuliskan itu, kata- kata tersebut akan selalu dikenang bersama kontribusi-kontribusi lainnya.
 
 <div style="background-color:white">
-![](supporting_2_grave.png)
 <img src="supporting_2_grave.png">
 </div>
 
@@ -64,7 +63,9 @@ Dan impiannya terwujud, meski tidak sedramatis skenario yang dia bayangkan. Pada
 
 Salah satu kontribusi Paul Erdős terhadap budaya matematika adalah kisah tentang The Book. Beliau sering berkata bahwa Tuhan mempunyai sebuah buku yang berisi semua bukti paling elegan dari semua teorema matematika yang ada. Saat memberikan kuliah, dia pernah berkata “*You don't have to believe in God, but you should believe in The Book.*”
 
-![](supporting_1_dabook.png)
+<div style="background-color:white">
+<img src="supporting_1_dabook.png">
+</div>
 
 Bagi banyak matematikawan, The Book adalah anekdot yang menarik dan inspiratif. Martin Aigner dan Günter M. Ziegler menulis buku berjudul “Proofs from The Book” untuk membuat *The Book* menjadi buku yang nyata. Atau setidaknya, membuat buku versi kecil dari The Book yang bisa dijangkau oleh manusia. Erdős terlibat dalam proses awal menulis buku tersebut, namun sayangnya Erdős sudah meninggal saat buku tersebut terbit pada tahun 1998. 
 
@@ -76,7 +77,9 @@ Untuk mengenang Erdős, komunitas matematika menciptakan Erdős number. Erdős n
 
 Sebagai contoh, Alfred Renyi pernah menulis paper dengan Erdős. Artinya Renyi mempunyai Erdős number 1. Kemudian misalkan ada seorang kolaborator Renyi yang belum punya Erdős number, dia akan mendapatkan Erdős number 2. Kemudian kolaborator mereka akan mendapatkan Erdős number 3, dan seterusnya. Salah satu kontributor Mettamatika memiliki Erdős number 3! Mungkin ini berarti Metta dan kontributor Mettamatika lainnya secara *unofficial* punya Erdős number 4...
 
-![](supporting_3_graph.png)
+<div style="background-color:white">
+<img src="supporting_3_graph.png">
+</div>
 
 Apakah Erdős number yang lebih kecil berarti matematikawan yang lebih kuat? Belum tentu, karena ada faktor-faktor yang lain yang mempengaruhi Erdős number. Matematikawan yang bekerja di bidang kombinatorika, cenderung memiliki Erdős number yang lebih kecil. Matematikawan yang lebih muda juga cenderung memiliki Erdős number yang lebih besar, karena mereka terpisahkan dari Erdős oleh waktu. Seiring waktu berjalan, banyaknya pemenang Erdős number kecil akan selalu berkurang, karena mereka menua dan berhenti matematika. 
 
