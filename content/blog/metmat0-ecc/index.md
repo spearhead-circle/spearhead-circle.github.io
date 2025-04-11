@@ -89,27 +89,27 @@ h_1 & = a_1+a_3+a_5+a_7
 \end{align}
 $$
 
-dan serupa juga untuk h2 dan h3 (cobalah!). Jadi, jika kita mendapatkan h1, h2, dan h3 semuanya nol, setidaknya kita bisa tahu bahwa tidak terjadi satu atau dua buah kesalahan bit (skema ini bisa mendeteksi dua buah kesalahan bit, tetapi hanya bisa mengoreksi satu buah kesalahan bit).
-Jika ada kesalahan, misal a4 berubah menjadi a4 + ε, kita akan mendapatkan
+dan serupa juga untuk \(h_2\) dan \(h_3\) (cobalah!). Jadi, jika kita mendapatkan  \(h_1\), \(h_2\), dan \(h_3\) semuanya nol, setidaknya kita bisa tahu bahwa tidak terjadi satu atau dua buah kesalahan bit (skema ini bisa mendeteksi dua buah kesalahan bit, tetapi hanya bisa mengoreksi satu buah kesalahan bit).
+Jika ada kesalahan, misal a4 berubah menjadi \(a_4 + ε\), kita akan mendapatkan
 
-| h1          | h2          | h3              |
-|-------------|-------------|-----------------|
-| a1+a3+a5+a7 | a2+a3+a6+a7 | (a4+ε)+a5+a6+a7 |
-| = 0         | = 0         | = ε             |
+| \(h_1\)         | \(h_2\)         | \(h_3\)             |
+|-----------------|-----------------|---------------------|
+| \(a1+a3+a5+a7\) | \(a2+a3+a6+a7\) | \((a4+ε)+a5+a6+a7\) |
+| \(= 0\)         | \(= 0\)         | \(= ε\)             |
 
-Karena skema kita hanyalah 0 atau 1, ε berarti bernilai 1 (karena 0 + 1 = 1 dan 1 + 1 = 0, *bit flip* sama saja dengan penjumlahan dengan 1). Dengan kata lain, kita dapatkan 100 (pada basis 2) yang berarti 4 pada basis 10 (desimal). Jadi, galat terjadi pada bit keempat. Bagaimana bila terjadi dua kesalahan? Untuk menjawab pertanyaan tersebut, kita perlu mengenal satu konsep lagi. Misalkan A =(a1, a2, a3,a4,a5,a6,a7) dan B = (b1, b2, b3,b4,b5,b6,b7) dua buah kata kode. Kita katakan **jarak Hamming** dari A dan B sebagai banyaknya bit yang berbeda di posisi yang sama dari A dan B. Kita notasikan jarak Hamming dari A dan B sebagai d(A,B) (dari kata *distance*). Sebagai contoh, katakode A = 0000000 dan B = 1110000 memiliki jarak Hamming 3, karena tiga bit pertama dari B bernilai berbeda dari A. Sekarang, dengan skema pengkodean yang kita miliki, kita mengkodekan (d1,d2, d3, d4) menjadi (p1, p2, d1, p3, d2, d3, d4). Mungkinkah pengkodean tersebut menghasilkan dua katakode dengan jarak Hamming 2?
+Karena skema kita hanyalah 0 atau 1, ε berarti bernilai 1 (karena 0 + 1 = 1 dan 1 + 1 = 0, *bit flip* sama saja dengan penjumlahan dengan 1). Dengan kata lain, kita dapatkan 100 (pada basis 2) yang berarti 4 pada basis 10 (desimal). Jadi, galat terjadi pada bit keempat. Bagaimana bila terjadi dua kesalahan? Untuk menjawab pertanyaan tersebut, kita perlu mengenal satu konsep lagi. Misalkan \(A =(a_1, a_2, a_3,a_4,a_5,a_6,a_7)\) dan \(B = (b_1, b_2, b_3,b_4,b_5,b-6,b_7)\) dua buah kata kode. Kita katakan **jarak Hamming** dari A dan B sebagai banyaknya bit yang berbeda di posisi yang sama dari A dan B. Kita notasikan jarak Hamming dari A dan B sebagai d(A,B) (dari kata *distance*). Sebagai contoh, katakode A = 0000000 dan B = 1110000 memiliki jarak Hamming 3, karena tiga bit pertama dari B bernilai berbeda dari A. Sekarang, dengan skema pengkodean yang kita miliki, kita mengkodekan \((d_1,d_2, d_3, d_4)\) menjadi \((p_1, p_2, d_1, p_3, d_2, d_3, d_4)\). Mungkinkah pengkodean tersebut menghasilkan dua katakode dengan jarak Hamming 2?
 
-Andaikan A dan B memiliki dua perbedaan dan keduanya perbedaannya adalah pada bit data, misalkan pada d1 dan d2, maka karena p2=d1+d3+d4 dan p3=d2+d3+d4, dijamin p2 dan p3 pada A dan B juga akan berbeda. Mudah diverifikasi dengan cara serupa untuk menunjukkan bahwa pemilihan perbedaan pada bit data lain akan menghasilkan hasil serupa. Akibatnya, A dan B memiliki lebih dari dua perbedaan.
+Andaikan A dan B memiliki dua perbedaan dan keduanya perbedaannya adalah pada bit data, misalkan pada d1 dan d2, maka karena \(p2=d_1+d_3+d_4\) dan \(p_3=d_2+d_3+d_4\), dijamin \(p_2\) dan \(p_3\) pada A dan B juga akan berbeda. Mudah diverifikasi dengan cara serupa untuk menunjukkan bahwa pemilihan perbedaan pada bit data lain akan menghasilkan hasil serupa. Akibatnya, A dan B memiliki lebih dari dua perbedaan.
 
-Bila perbedaannya ada pada bit paritas, misalkan pada p1 dan p2, kita akan mendapatkan jumlahan d1+d2+d4 pada A dan B berbeda (dan demikian juga jumlahan d1+d3+d4 ). Akibatnya, salah satu dari d1, d2, d3,  atau d4 haruslah berbeda juga, sehingga tidak mungkin A dan B berbeda hanya pada dua posisi. Lagi-lagi kita bisa jalankan argumen serupa untuk bit paritas lainnya.
+Bila perbedaannya ada pada bit paritas, misalkan pada \(p_1\) dan \(p_2\), kita akan mendapatkan jumlahan d1+d2+d4 pada A dan B berbeda (dan demikian juga jumlahan \(d_1+d_3+d_4\) ). Akibatnya, salah satu dari \(d_1\), \(d_2\), \(d_3\), atau \(d_4\) haruslah berbeda juga, sehingga tidak mungkin A dan B berbeda hanya pada dua posisi. Lagi-lagi kita bisa jalankan argumen serupa untuk bit paritas lainnya.
 
-Terakhir, bila perbedaan ada pada salah satu dari bit data dan salah satu dari bit paritas. Misalkan perbedaan terjadi pada d1 dan p1. Berarti jumlahan d1+d3+d4 pada A dan B berbeda. Akibatnya, haruslah setidaknya salah satu dari d3 dan d4 juga berbeda. Jadi, lagi-lagi perbedaannya tidak mungkin terjadi hanya pada dua buah bit. Kita bisa dengan penuh kegigihan menjalankan hal serupa untuk kombinasi lainnya untuk mendapat hasil serupa. 
+Terakhir, bila perbedaan ada pada salah satu dari bit data dan salah satu dari bit paritas. Misalkan perbedaan terjadi pada \(d_1\) dan \(p_1\). Berarti jumlahan \(d_1+d_3+d_4\) pada A dan B berbeda. Akibatnya, haruslah setidaknya salah satu dari \(d_3\) dan \(d_4\) juga berbeda. Jadi, lagi-lagi perbedaannya tidak mungkin terjadi hanya pada dua buah bit. Kita bisa dengan penuh kegigihan menjalankan hal serupa untuk kombinasi lainnya untuk mendapat hasil serupa. 
 
 Karena skema kita tidak akan menghasilkan katakode dengan jarak Hamming 2, kesalahan pada dua posisi akan menghasilkan katakode yang tidak valid. Dengan demikian, kita akan tahu bahwa terjadi kesalahan (tetapi kita tidak bisa memperbaikinya).
 
 *(Note: Pembaca yang cukup rajin dapat mencoba membuktikan bahwa skema pengkodean yang kita miliki akan menghasilkan katakode dengan jarak Hamming minimal 3)*
 
-Kita bisa cukup pede mengoreksi jika terjadi satu buah kesalahan, tetapi jika kita dapatkan h3h2h1 = 000, belum tentu kode yang kita terima bebas dari kesalahan. Namun, hal ini lebih baik daripada tidak menggunakan skema pengoreksi galat sama sekali jika kita membutuhkan sistem yang lebih resilien terhadap kesalahan.
+Kita bisa cukup pede mengoreksi jika terjadi satu buah kesalahan, tetapi jika kita dapatkan \(h_3h_2h_1\) = 000, belum tentu kode yang kita terima bebas dari kesalahan. Namun, hal ini lebih baik daripada tidak menggunakan skema pengoreksi galat sama sekali jika kita membutuhkan sistem yang lebih resilien terhadap kesalahan.
 
 *(Note: untuk pembaca yang pernah belajar aljabar linear, skema hitungan di atas lebih bagus dinyatakan sebagai perkalian matriks)*
 
