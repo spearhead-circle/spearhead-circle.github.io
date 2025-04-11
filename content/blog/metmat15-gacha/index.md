@@ -119,38 +119,102 @@ Di bawah ini, ditampilkan tabel dengan segala kemungkinan pengambilan bola. Pada
 </table>
 
 Dapat dilihat, bahwa dari total 12 kemungkinan, hanya ada dua kejadian yang memenuhi hasil yang diharapkan (bola 1 dan 4 terambil). Sehingga, kemungkinannya adalah 2/12 atau 1/6.
-Kombinasi
-Dalam matematika, hal ini disebut juga dengan kombinasi. Jika kamu pernah mempelajari kombinasi di kelas matematika SMA, maka kamu juga tidak asing mendengar pasangannya: permutasi. Ada pun rumus kombinasi sebagai berikut:
+
+# Kombinasi
+
+Dalam matematika, hal ini disebut juga dengan **kombinasi**. Jika kamu pernah mempelajari kombinasi di kelas matematika SMA, maka kamu juga tidak asing mendengar pasangannya: permutasi. Ada pun rumus kombinasi sebagai berikut:
+
+![](eq1.png)
+
+Notasi (istilah keren dari cara penulisan secara matematis) kombinasi ini menunjukkan berapa banyak susunan beberapa benda apabila diambil sebanyak **r** benda dari sekumpulan **n** benda, tanpa memperhatikan urutan benda yang diambil. Sebenarnya, dari mana sih rumus ini diambil?
+
+![](eq2.png)
  
-Notasi (istilah keren dari cara penulisan secara matematis) kombinasi ini menunjukkan berapa banyak susunan beberapa benda apabila diambil sebanyak r benda dari sekumpulan n benda, tanpa memperhatikan urutan benda yang diambil. Sebenarnya, dari mana sih rumus ini diambil?
- 
-Kita mundur dulu sejenak ke yang namanya faktorial. Operasi bilangan faktorial adalah perkalian dari sebuah angka bulat (sebut saja n) dan semua bilangan yang lebih kecil dari n, dan operasi bilangan ini biasa ditulis dengan n! (nggak, ini lagi nggak teriak)
+Kita mundur dulu sejenak ke yang namanya **faktorial**. Operasi bilangan faktorial adalah perkalian dari sebuah angka bulat (sebut saja n) dan semua bilangan yang lebih kecil dari n, dan operasi bilangan ini biasa ditulis dengan n! (nggak, ini lagi nggak teriak)
+
+![](faktorial.png)
+
 Kalau sebelumnya kita berbicara tentang pengambilan 2 dari 4 bola, sekarang kita berbicara tentang pengambilan 4 dari 4 bola. Jika kamu mengambil 4 bola secara berurutan, berapa banyak semua kemungkinan urutan bola tersebut? Seperti 1-2-3-4, 1-4-2-3, 4-2-3-1, dan lain-lain. Pengambilan 2 dari 4 bola (dengan memperhatikan urutan) sebelumnya memiliki peluang 1/12, yaitu 1 dari 12 kemungkinan. Jika kita lanjutkan pengambilan ketiga, di dalam kotak tinggal ada dua bola, sehingga hanya ada dua bola yang terambil. Oleh karena itu, dari yang sebelumnya ada 12 kemungkinan, kita kalikan lagi dengan dua, sehingga kita punya 24 kemungkinan. Bagaimana dengan pengambilan keempat? Kita semua tahu bahwa di pengambilan terakhir hanya akan ada satu bola, sehingga total kemungkinannya tetap sama, yaitu 24 kemungkinan. Apabila kita hitung 4! (4 faktorial), maka hasilnya adalah 4 x 3 x 2 x 1 = 24, cocok dengan rumusnya.
+
 Tabel kemungkinan untuk 4 bola
-1234	1243	2134	2143	3124	3142	4123	4132
-1324	1342	2314	2341	3214	3241	4213	4231
-1423	1432	2413	2431	3412	3421	4312	4321
-Selanjutnya, kita berbicara tentang abangnya kombinasi terlebih dahulu, yaitu permutasi. Pengambilan 2 dari 4 bola sebelumnya adalah salah satu contoh permutasi. Rumus permutasi adalah sebagai berikut.
 
- 
+<table>
+    <tr>
+        <th>1234</th>
+        <th>1243</th>
+        <th>2134</th>
+        <th>2143</th>
+    </tr>
+    <tr>
+        <th>3124</th>
+        <th>3142</th>
+        <th>4123</th>
+        <th>4132</th>
+    </tr>
+    <tr>
+        <th>1324</th>
+        <th>1342</th>
+        <th>2314</th>
+        <th>2341</th>
+    </tr>
+    <tr>
+        <th>3214</th>
+        <th>3241</th>
+        <th>4213</th>
+        <th>4231</th>
+    </tr>
+    <tr>
+        <th>1423</th>
+        <th>1432</th>
+        <th>2413</th>
+        <th>2431</th>
+    </tr>
+    <tr>
+        <th>3412</th>
+        <th>3421</th>
+        <th>4312</th>
+        <th>4321</th>
+    </tr>
+</table>
+
+Selanjutnya, kita berbicara tentang abangnya kombinasi terlebih dahulu, yaitu **permutasi**. Pengambilan 2 dari 4 bola sebelumnya adalah salah satu contoh permutasi. Rumus permutasi adalah sebagai berikut.
+
+![](eq3.png)
+
 Mungkin terlihat rumit, namun mari kita masukkan angka-angkanya.
- 
+
+![](eq4.png)
+
 Kalau kita masukkan angka-angkanya, rumusnya sesuai dengan banyaknya kejadian dalam pengambilan dua dari empat bola tadi. Sekarang, apa yang membedakan permutasi dengan kombinasi?
- 
 
-Karena kombinasi tidak memperhatikan urutan, maka permutasi dari pengambilan 2 dari 4 bola dibagi dengan banyaknya urutan bola yang dapat dibuat dari 2 bola. Karena hanya akan ada dua susunan dari dua bola, maka permutasi dibagikan dengan 2, sehingga kita mendapatkan 6, sesuai dengan perhitungan awal.
-Ending
+![](eq5.png)
+
+Karena kombinasi tidak memperhatikan urutan, maka permutasi dari pengambilan 2 dari 4 bola dibagi dengan **banyaknya urutan bola yang dapat dibuat dari 2 bola**. Karena hanya akan ada dua susunan dari dua bola, maka permutasi dibagikan dengan 2, sehingga kita mendapatkan 6, sesuai dengan perhitungan awal.
+
+
+# Ending
+
 Hanni: Jadi gimana caranya kita bikin gacha dengan rate 1%?
-Metta: Ya sama aja kayak penjelasanku tadi, pakai dua pengambilan bola yang berurutan, tapi ditambah aja bolanya, jadi 15 gitu.
-Hanni: Emang bakal jadi sekecil 1%?
-Metta: Yah, masa gak percaya, itung aja sendiri kalo ga percaya
-Hanni: Aku males ngitung sih, jadi aku percaya kamu aja deh hehe
-Hanni: Terus, kalau mau lebih kejam lagi gachanya biar kayak tatanan takdir besar gimana?
-Metta: Ya, tinggal tambah lagi aja total bolanya, makin kecil kan itu rate nya
-Hanni: Oh iya ya, ide bagus! Pinter juga kamu Metta, gak sia sia aku temenan sama kamu
-Metta: Jadi, selama ini, kamu temanan sama aku buat manfaatin aku aja??
-Hanni: *poof* menghilang
 
+Metta: Ya sama aja kayak penjelasanku tadi, pakai dua pengambilan bola yang berurutan, tapi ditambah aja bolanya, jadi 15 gitu.
+
+Hanni: Emang bakal jadi sekecil 1%?
+
+Metta: Yah, masa gak percaya, itung aja sendiri kalo ga percaya
+
+Hanni: Aku males ngitung sih, jadi aku percaya kamu aja deh hehe
+
+Hanni: Terus, kalau mau lebih kejam lagi gachanya biar kayak tatanan takdir besar gimana?
+
+Metta: Ya, tinggal tambah lagi aja total bolanya, makin kecil kan itu rate nya
+
+Hanni: Oh iya ya, ide bagus! Pinter juga kamu Metta, gak sia sia aku temenan sama kamu
+
+Metta: Jadi, selama ini, kamu temanan sama aku buat manfaatin aku aja??
+
+Hanni: \*poof\* *menghilang*
+
+![](adios.png)
 
 Mettamatika vol. 1,5
 
