@@ -5,6 +5,8 @@
 title = "Spearhead Circle"
 +++
 
+![](images/banner.jpg)
+
 # Selamat datang di arsip Spearhead Circle!
 
 Website ini bertujuan untuk arsip beberapa karya dari Spearhead Circle, seperti Mettamatika versi paruh (vol. 0 dan vol. 1,5).
