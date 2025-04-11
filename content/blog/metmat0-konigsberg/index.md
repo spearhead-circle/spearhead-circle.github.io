@@ -17,7 +17,7 @@ Cirno sedang kebingungan menghadapi sebuah persoalan di Königsberg. Sebuah soal
 
 ![](soal.png)
  
-Soal: Bisakah Cirno berjalan melalui 7 jembatan ini, tanpa melintasi jembatan yang sama dua kali?
+**Soal**: Bisakah Cirno berjalan melalui 7 jembatan ini, tanpa melintasi jembatan yang sama dua kali?
 
 # Kok Susah Ya?
 
