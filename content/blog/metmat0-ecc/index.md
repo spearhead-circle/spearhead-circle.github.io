@@ -128,20 +128,26 @@ Jika ada kesalahan, misal \(a_4\) berubah menjadi \(a_4 + ε\), kita akan mendap
     <tr>
         <th>
             $$
+            \begin{array}
             a1+a3+a5+a7 \\
             = 0
+            \end{array}
             $$
         </th>
         <th>
             $$
+            \begin{array}
             a2+a3+a6+a7 \\
             = 0
+            \end{array}
             $$
         </th>
         <th>
             $$
+            \begin{array}
             (a4+ε)+a5+a6+a7 \\
             = ε
+            \end{array}
             $$
         </th>
     </tr>
