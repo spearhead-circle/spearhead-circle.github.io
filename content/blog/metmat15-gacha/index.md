@@ -9,6 +9,8 @@ tags = [
 ]
 +++
 
+![](cover-gacha.png)
+
 # Intro
 
 Hanni: Untuk acara Comic Frontier depan, bagaimana kalau kita adain gacha?

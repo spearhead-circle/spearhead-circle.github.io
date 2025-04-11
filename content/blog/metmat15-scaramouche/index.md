@@ -9,6 +9,8 @@ tags = [
 ]
 +++
 
+![](scara.png)
+
 # COMING SOON
 
 Mettamatika vol. 1,5

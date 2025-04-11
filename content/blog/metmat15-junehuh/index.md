@@ -9,6 +9,8 @@ tags = [
 ]
 +++
 
+![](cover-text.png)
+
 # COMING SOON
 
 Mettamatika vol. 1,5
