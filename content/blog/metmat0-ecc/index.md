@@ -64,11 +64,16 @@ Dari diagram di atas, terlihat juga kenapa kita tidak perlu menyimpan kombinasi 
 |-----------------|-----------------|-----------------|
 | \(d_1+d_2+d_4\) | \(d_1+d_3+d_4\) | \(d_2+d_3+d_4\) |
 
-<table>
+<table style="border: 1px solid white; text-align:center">
     <tr>
         <th>\(p_1\)</th>
         <th>\(p_2\)</th>
         <th>\(p_3\)</th>
+    </tr>
+    <tr>
+        <th> \(d_1+d_2+d_4\)</th>
+        <th>\(d_1+d_3+d_4\)</th>
+        <th>\(d_2+d_3+d_4\)</th>
     </tr>
 </table>
 
