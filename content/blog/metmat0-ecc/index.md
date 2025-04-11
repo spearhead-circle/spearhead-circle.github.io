@@ -84,13 +84,13 @@ $$
 \begin{align}
 h_1 & = a_1+a_3+a_5+a_7 \\
 & = p_1+d_1+d_2+d_4 \\
-& = - (d_1+d_2+d_4) + d_1+ d_2+d_4 \\
+& = (d_1+d_2+d_4) + d_1+ d_2+d_4 \\
 & = 0
 \end{align}
 $$
 
 dan serupa juga untuk \(h_2\) dan \(h_3\) (cobalah!). Jadi, jika kita mendapatkan  \(h_1\), \(h_2\), dan \(h_3\) semuanya nol, setidaknya kita bisa tahu bahwa tidak terjadi satu atau dua buah kesalahan bit (skema ini bisa mendeteksi dua buah kesalahan bit, tetapi hanya bisa mengoreksi satu buah kesalahan bit).
-Jika ada kesalahan, misal a4 berubah menjadi \(a_4 + ε\), kita akan mendapatkan
+Jika ada kesalahan, misal \(a_4\) berubah menjadi \(a_4 + ε\), kita akan mendapatkan
 
 | \(h_1\)         | \(h_2\)         | \(h_3\)             |
 |-----------------|-----------------|---------------------|
