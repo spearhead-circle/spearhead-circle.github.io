@@ -60,10 +60,6 @@ Untuk menyederhanakan, tinjau informasi yang dikodekan menjadi empat buah angka 
 
 Dari diagram di atas, terlihat juga kenapa kita tidak perlu menyimpan kombinasi \(d_1+d_2+d_3\), yakni karena informasi untuk mengecek bila terjadi galat pada salah satu dari \(d_1\), \(d_2\), atau \(d_3\) kita akan mendeteksinya via kombinasi lainnya. Kita namai masing-masing kombinasinya \(p_1\), \(p_2\), dan \(p_3\) (p dari kata “paritas”). 
 
-|     \(p_1\)     |     \(p_2\)     |     \(p_3\)     |
-|-----------------|-----------------|-----------------|
-| \(d_1+d_2+d_4\) | \(d_1+d_3+d_4\) | \(d_2+d_3+d_4\) |
-
 <table>
     <tr>
         <th>\(p_1\)</th>
@@ -81,15 +77,33 @@ Jika informasi yang kita ingin kirimkan adalah 1011, kita simpan dia dalam bentu
 
 Misal kita menerima kode (\(a_1\), \(a_2\), \(a_3\), \(a_4\), \(a_5\), \(a_6\), \(a_7\)). Kita bisa menghitung
 
-|       \(h_1\)       |       \(h_2\)       |       \(h_3\)       |
-|---------------------|---------------------|---------------------|
-| \(a_1+a_3+a_5+a_7\) | \(a_2+a_3+a_6+a_7\) | \(a_4+a_5+a_6+a_7\) |
+<table>
+    <tr>
+        <th>\(h_1\)</th>
+        <th>\(h_2\)</th>
+        <th>\(h_3\)</th>
+    </tr>
+    <tr>
+        <th>\(a_1+a_3+a_5+a_7\)</th>
+        <th>\(a_2+a_3+a_6+a_7\)</th>
+        <th>\(a_4+a_5+a_6+a_7\)</th>
+    </tr>
+</table>
 
 Pada contoh di atas tadi, bila kita menerima 0110010, kita akan mendapatkan:
 
-| \(h_1\) | \(h_2\) | \(h_3\) |
-|---------|---------|---------|
-|    1    |    1    |    1    |
+<table>
+    <tr>
+        <th>\(h_1\)</th>
+        <th>\(h_2\)</th>
+        <th>\(h_3\)</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <th>1</th>
+        <th>1</th>
+    </tr>
+</table>
 
 Jika kita jejer menjadi 111, kita dapatkan konversi biner ke desimal 111 → 7 (yakni \(1*2^0 + 1*2^1 + 1*2^2\)), kita ketahui bahwa galat terjadi pada digit ketujuh (dan bisa segera kita koreksi dengan menukar 0 ke 1). Salah satu ide jenius dari penyusunan ini adalah skema \(h_1\), \(h_2\), dan \(h_3\) yang dapat memberi tahu di mana ada galat dan mengoreksi galatnya. Misalkan tidak terjadi galat, kita dapatkan bahwa:
 
@@ -109,6 +123,34 @@ Jika ada kesalahan, misal \(a_4\) berubah menjadi \(a_4 + ε\), kita akan mendap
 |-----------------|-----------------|---------------------|
 | \(a1+a3+a5+a7\) | \(a2+a3+a6+a7\) | \((a4+ε)+a5+a6+a7\) |
 | \(= 0\)         | \(= 0\)         | \(= ε\)             |
+
+<table>
+    <tr>
+        <th>\(h_1\)</th>
+        <th>\(h_2\)</th>
+        <th>\(h_3\)</th>
+    </tr>
+    <tr>
+        <th>
+            $$
+            \(a1+a3+a5+a7\) \\
+            \(= 0\)
+            $$
+        </th>
+        <th>
+            $$
+            \(a2+a3+a6+a7\) \\
+            \(= 0\)
+            $$
+        </th>
+        <th>
+            $$
+            \((a4+ε)+a5+a6+a7\) \\
+            \(= ε\)
+            $$
+        </th>
+    </tr>
+</table>
 
 Karena skema kita hanyalah 0 atau 1, ε berarti bernilai 1 (karena 0 + 1 = 1 dan 1 + 1 = 0, *bit flip* sama saja dengan penjumlahan dengan 1). Dengan kata lain, kita dapatkan 100 (pada basis 2) yang berarti 4 pada basis 10 (desimal). Jadi, galat terjadi pada bit keempat. Bagaimana bila terjadi dua kesalahan? Untuk menjawab pertanyaan tersebut, kita perlu mengenal satu konsep lagi. Misalkan \(A =(a_1, a_2, a_3,a_4,a_5,a_6,a_7)\) dan \(B = (b_1, b_2, b_3,b_4,b_5,b_6,b_7)\) dua buah kata kode. Kita katakan **jarak Hamming** dari A dan B sebagai banyaknya bit yang berbeda di posisi yang sama dari A dan B. Kita notasikan jarak Hamming dari A dan B sebagai d(A,B) (dari kata *distance*). Sebagai contoh, katakode A = 0000000 dan B = 1110000 memiliki jarak Hamming 3, karena tiga bit pertama dari B bernilai berbeda dari A. Sekarang, dengan skema pengkodean yang kita miliki, kita mengkodekan \((d_1,d_2, d_3, d_4)\) menjadi \((p_1, p_2, d_1, p_3, d_2, d_3, d_4)\). Mungkinkah pengkodean tersebut menghasilkan dua katakode dengan jarak Hamming 2?
 
