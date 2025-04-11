@@ -61,9 +61,13 @@ Tim:
 * Rubi
 
 Mettamatika vol. 0 – Survivorship Bias
+
 Text: Furra
+
 Storyboard: AuvioraA
+
 Illustration: Muhammad Pambudi Wicaksono, adriantom9, kucingeprek
+
 Cover: kucingeprek
 
 Spearhead Circle @ D-54 Comic Frontier 17

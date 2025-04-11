@@ -89,8 +89,11 @@ Tim:
 * Rubi
 
 Mettamatika vol. 0 – Pi
+
 Text: adriantom9
+
 Illustration: adriantom9
+
 Cover: kucingeprek
 
 Spearhead Circle @ D-54 Comic Frontier 17
