@@ -55,32 +55,68 @@ Di bawah ini, ditampilkan tabel dengan segala kemungkinan pengambilan bola. Pada
         <td id="borderless"></td>
         <td colspan="2" id="borderless">Bola 2 sebagai bola pertama:</td>
     </tr>
-    <tr>
+    <tr id="borderless">
         <td>Bola pertama</td>
         <td>Bola kedua</td>
         <td id="borderless"></td>
         <td>Bola pertama</td>
         <td>Bola kedua</td>
     </tr>
-    <tr>
+    <tr id="borderless">
         <td>1</td>
         <td>2</td>
         <td id="borderless"></td>
         <td>2</td>
         <td>1</td>
+    </tr>
+    <tr id="borderless">
+        <td>1</td>
+        <td>3</td>
+        <td id="borderless"></td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr id="borderless">
+        <td>1</td>
+        <td>4</td>
+        <td id="borderless"></td>
+        <td>2</td>
+        <td>4</td>
+    </tr>
+    <tr id="borderless">
+        <td colspan="2" id="borderless">Bola 3 sebagai bola pertama:</td>
+        <td id="borderless"></td>
+        <td colspan="2" id="borderless">Bola 4 sebagai bola pertama:</td>
+    </tr>
+    <tr id="borderless">
+        <td>Bola pertama</td>
+        <td>Bola kedua</td>
+        <td id="borderless"></td>
+        <td>Bola pertama</td>
+        <td>Bola kedua</td>
+    </tr>
+    <tr id="borderless">
+        <td>3</td>
+        <td>1</td>
+        <td id="borderless"></td>
+        <td>4</td>
+        <td>1</td>
+    </tr>
+    <tr id="borderless">
+        <td>3</td>
+        <td>2</td>
+        <td id="borderless"></td>
+        <td>4</td>
+        <td>2</td>
+    </tr>
+    <tr id="borderless">
+        <td>3</td>
+        <td>4</td>
+        <td id="borderless"></td>
+        <td>4</td>
+        <td>3</td>
     </tr>
 </table>
-
-Bola 1 sebagai bola pertama:		Bola 2 sebagai bola pertama
-Bola pertama	Bola kedua		Bola pertama	Bola kedua
-1	2		2	1
-1	3		2	3
-1	4		2	4
-Bola 3 sebagai bola pertama		Bola 4 sebagai bola pertama
-Bola pertama	Bola kedua		Bola pertama	Bola kedua
-3	1		4	1
-3	2		4	2
-3	4		4	3
 
 Dapat dilihat, bahwa dari total 12 kemungkinan, hanya ada dua kejadian yang memenuhi hasil yang diharapkan (bola 1 dan 4 terambil). Sehingga, kemungkinannya adalah 2/12 atau 1/6.
 Kombinasi
