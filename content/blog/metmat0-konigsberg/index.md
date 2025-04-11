@@ -79,12 +79,12 @@ Aku ingin membuat matematika.menjadi keilmuan yang terlihat lebih keren. Aku ing
 
 Medsos dan Portofolio:
 
-[](https://twitter.com/Rubicoded)
-[](https://linktr.ee/mugmugrubio)
+[https://twitter.com/Rubicoded](https://twitter.com/Rubicoded)
+[https://linktr.ee/mugmugrubio](https://linktr.ee/mugmugrubio)
 
  
 ## Referensi
-* https://en.wikipedia.org/wiki/Seven_Bridges_of_Königsberg
+* [https://en.wikipedia.org/wiki/Seven_Bridges_of_Königsberg](https://en.wikipedia.org/wiki/Seven_Bridges_of_Königsberg)
 * https://en.wikipedia.org/wiki/Five_room_puzzle
 * https://en.touhouwiki.net/wiki/Cirno
 
