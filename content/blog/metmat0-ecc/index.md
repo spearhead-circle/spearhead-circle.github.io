@@ -9,74 +9,122 @@ tags = [
 ]
 +++
 
-![Cover - Pi](cover-pi.png)
-![](nenen.png)
+![Cover - ECC](cover-ecc.png)
 
-Coba lihat ban mobil, jam dinding, tutup gelas, bundaran tugu Pamulang, apa kesamaan yang dimiliki oleh objek-objek ini? Benar, objek-objek ini berbentuk lingkaran dan semuanya buatan manusia! Tapi, bagaimana lebih tepatnya manusia membuat objek-objek yang berbentuk lingkaran? Bagaimana cara mereka menghitung keliling lingkaran? Mungkin untuk bentuk-bentuk seperti bujur sangkar dan persegi panjang dapat diketahui dengan mudah panjang keliling dan luas bangunnya, tapi bagaimana dengan lingkaran? Bentuknya yang melengkung membuat perhitungan keliling dan luas tidak semudah itu.
+![](kamar.png)
 
-Inilah ketika bilangan **pi** berperan. Bentuk lingkaran dan bilangan pi selalu berhubungan erat, dan segala perhitungan yang melibatkan lingkaran pasti memiliki pi di rumusnya. Tapi, sebenarnya apakah bilangan pi itu?
+Metta sedang membongkar koleksi CD lama miliknya untuk kemudian diarsipkan di rak khusus. Dilihatnya CD album dari pelbagai pemusik kondang. Beberapa terlihat CD lama yang menyimpan karya Godbless dan Koes Plus peninggalan ayahnya. Entah merasa terpanggil atau apa, Abdul Malik, kucing milik Metta, tiba-tiba meloncat ke atas CD yang sedang dikurasi oleh Metta. Metta segera mengusirnya, tetapi sial, CD tersebut terlanjur tergores. 
 
-Ambil benda apapun yang berbentuk lingkaran, contoh: ban motor, gelas plastik, planet Mars, dll. Ukur kelilingnya (bisa menggunakan meteran baju, benang, dll), kemudian ukur diameternya. Bagikan antara keliling dengan diameter, apapun benda yang diukur, pasti hasil dari pembagian antara keliling dan diameter tidak jauh dari 3. Itulah bilangan **pi**, rasio antara keliling lingkaran dengan diameter. Bilangan pi sendiri sebesar **3,14**.
+![](kucing.png)
 
-![](pie.png)
+“Duhhh Malik, kamu ini ya main loncat aja sembarangan!”
 
-Sejak tahun 2000 sebelum Masehi, manusia sudah mengenal konsep bilangan pi. Saat ini reporter kami, Metta, sudah berada bersama warga Mesir kuno dan Babylon kuno di dalam ruangan meeting online. Mari kita tanya kepada mereka, berapa nilai pi itu?
+“Miaw”
 
-![](zoom.png)
+Metta segera mengamankan CD lainnya ke dalam boks masing-masing, tetapi ia penasaran apakah CD yang tergores tersebut masih bisa diputar atau tidak. Segera dikeluarkannya pemutar CD yang sedikit berdebu karena lama tak digunakan.
 
-*Mesir: 256/81!*
+“Wah, ini mah CD rekaman lomba 17an waktuku kecil dulu. Kenapa bisa ada di dalam boks CD musik yah…. Perlu dicek satu-persatu lagi nih koleksinya. Untungnya CD ini masih bisa diputar sih walau tergores, tapi kok bisa yah? Bukannya CD ini menaruh informasinya di piringannya?”
 
-*Babylon: 3,125!*
+Alih-alih lanjut mengkurasi CD koleksinya, Metta beranjak ke depan PC dan mulai menggali lubang kelinci terkait galat dan pengoreksi galat.
 
-*Waduh, malah berantem.*
+“Waduh, benda apaan nih *cross-interleaved Reed-Solomon coding*? Hm, kayaknya perlu tahu dulu deh coding di sini merujuk ke mana.”
 
-![](alkitab.png)
+![](laptop.png)
 
-*Dikutip dari 1 Raja-raja 7:23, “Kemudian dibuatnyalah "laut" tuangan yang sepuluh hasta dari tepi ke tepi, bundar keliling, lima hasta tingginya, dan yang dapat dililit berkeliling oleh tali yang tiga puluh hasta panjangnya.”, kira2 970–931 SM*
+“Oke, pada dasarnya coding di sini merujuk ke cara mengemas informasi. Sederhananya sih kayak kalau kita mau berbagi contekan sama teman ketika ujian, kalau kita kedip mata berarti A, ketuk pensil berarti B, dan sebagainya. Kita mengkodekan informasi menjadi satu hal lainnya.”
 
-Karena keterbatasan teknologi pada masa itu, manusia masih menggunakan cara manual, yaitu mengukur perbandingan antara keliling dengan diameter dari benda lingkaran apapun yang dapat mereka temukan. Pencarian bilangan pi yang dilakukan secara teliti dan mendalam pertama kali dilakukan oleh Archimedes pada tahun 250 SM dengan metode poligon.
- 
-![](polygon.png)
+Metta lalu menemukan apa yang disebut sebagai cek paritas. Sebagai contoh, jika kita memasukkan kartu kredit dengan nomor 4624 7482 3324 9780 untuk membayar, sistem akan mengecek terlebih dahulu dengan cara mencacah mundur nomor kartu kreditnya, dengan aturan seperti berikut:
+* dikalikan dua bila digit ada di posisi genap
+* dibiarkan bila digit ada di posisi ganjil
 
-Metode poligon ini berangkat dari asumsi bahwa lingkaran adalah bentuk segi-tak-terbatas. Bayangkan sebuah lingkaran, kemudian bayangkan ada dua segitiga sama sisi, yang satu mengelilingi dan mengurung lingkaran tersebut, kemudian menyusut hingga sisinya mentok dengan lingkaran itu, yang satu lagi berada di dalam dan terkurung oleh lingkaran tersebut, kemudian membesar sampai ujungnya mentok dengan sisi lingkaran tersebut. Hitung keliling dari kedua segitiga tersebut, nilai keliling lingkaran pasti berada diantara kedua segitiga tersebut.
+Misal kalau dengan nomor kartu yang di atas, dia akan menghitung pertama digit-digitnya yang telah dikali dua dan menjumlahkan masing-masing digit 
 
-Sekarang tambah jumlah sisi pada kedua segitiga tersebut. Segiempat luar dan dalam akan terlihat lebih mepet ke lingkaran. Tambah lagi sisinya, semakin banyak jumlah sisinya kedua poligon luar dan dalam akan semakin mepet ke lingkaran.
+![](angka.png)
 
-![](archimedes.png)
+Dari hasil penjumlahan tersebut, akan dilihat digit paling belakangnya. Jika ia berakhir dengan 0, berarti nomor kartunya valid dan sistem transaksi dapat melakukan pengecekan lain yang lebih rumit (seperti mengecek siapa pemilik kartunya, bank mana yang mengeluarkan, dan apakah saldo/limitnya mencukupi). Proses di atas disebut sebagai algoritma Luhn. Ini merupakan salah satu cara untuk mengecek apakah ada kesalahan dalam informasi yang diterima. Jika tidak percaya, coba jalankan algoritma Luhn nomor kartu berikut: 5379 4135 5191 8998 dan periksa apakah sistem pengecek nomor kartu akan menerima nomor tersebut.
 
-Dengan metode ini, Archimedes berhasil mendapatkan nilai pi berada di antara 223/71 dengan 22/7, atau dalam bentuk desimal, 3,1408… < pi < 3,1428, dengan menggunakan bentuk poligon segi-96. Metode serupa digunakan untuk meraih nilai-nilai pi yang lebih akurat, seperti Ptolemy (150 M) (pi = 377/120) dan Tsu Chung-Chih (abad kelima) (pi akurat sampai ke tujuh digit).
+![](kartu.png)
 
-![](leibniz.png)
+“Oke, nemu satu cara untuk mendeteksi adanya galat pada informasi. Namun, dia kan hanya memberi tahu bahwa ada galat, tidak memberi tahu galatnya di mana dan mestinya apa. Yang dilakukan oleh CD kan lebih dari itu. Dia bukan hanya bisa mendeteksi ada galat, tetapi juga tetap bisa mendapatkan informasi yang seharusnya walaupun ada galat.”
+Metta terpikir sesuatu. Sebenarnya mudah saja untuk CD tetap bisa mendapatkan informasi yang seharusnya walau ada galat. Simpan saja seluruh informasinya tiga kali. Begitu ada kesalahan, bisa cek dari dua lainnya. 
 
-Metode poligon sudah ada selama sekitar 1600 tahun, dan rekor angka pi terakurat masih berada di 14 bilangan di belakang koma. Rekor tersebut dipegang oleh Al-Kashi dari Samarkand pada sekitar tahun 1430. Penemuan kalkulus oleh Newton dan Leibniz pada tahun 1600an menyumbangkan banyak rumus-rumus baru dalam penemuan digit-digit pi lainnya, dengan salah satu metode umum yang dipakai adalah dengan ekspansi deret Taylor.
+“Kenapa tidak dua kali saja?” Tanya Abdul Malik.
 
-![](rumus.png)
+“Simpan dua kali nggak bisa karena nanti ketika kita dapat keduanya tidak sama, kita tidak tahu mana yang benar. Setidaknya asalkan tidak terlalu parah kesalahannya, hal ini bisa menyelesaikan masalah. Namun, sayang sekali jika harus menggunakan ruang sangat banyak sekadar untuk mengantisipasi kesalahan”, Balas Metta. Metta mulai ke komputernya untuk menggali bagaimana cara melakukan proses koreksi ini seefisien mungkin. Metta mulai membaca beberapa referensi terkait kode pengoreksi galat.
 
-Sampai pada tahun 1946, penghitungan nilai pi dilakukan secara manual di atas kertas dengan rekor tertinggi 620 digit oleh D.F. Ferguson. Terobosan berikutnya dalam penghitungan digit pi datang bersamaan dengan ditemukannya teknologi baru: **komputer**.
- 
-![](computers.png)
+Untuk menyederhanakan, tinjau informasi yang dikodekan menjadi empat buah angka 0/1 saja. Masing-masing nilai ini bisa kita terjemahkan kemudian menjadi pesan tertentu. Misal, kita bisa saja mengartikan 0101 sebagai pesan “Beli dua buah semangka” dan 1101 sebagai pesan “Jual tiga buah anggur”. Kita sebut masing-masing angka itu sebagai **bit data**. Jika hanya ingin mengecek eksistensi galat, kita bisa saja menambahkan satu **bit paritas (bit pengecekan)** lalu melakukan serangkaian operasi (seperti pada algoritma Luhn) agar kalkulasinya menghasilkan suatu angka yang kita tentukan. Bit paritas di sini bisa kita kontrol nilainya agar menghasilkan angka yang barusan kita tentukan. Sebagai contoh, kita mengatur agar jumlah seluruh bitnya (termasuk bit paritas) haruslah genap. Jadi, untuk bit data 1101:
+* Kita bisa menambah 1 angka sebagai bit paritas agar hasil penjumlahan digitnya genap. Informasi kita menjadi 11011. Jika ada satu bit yang berubah (misal 11011 berubah menjadi 11010), kita segera tahu bahwa ada kesalahan pada bit data, tetapi tidak tahu ada di mana. Ketika ada dua bit yang berubah kita juga tidak akan tahu bahwa ada kesalahan.
+* Atau kita bisa sedikit lebih cerdas, kita bisa menyimpan jumlah dari kombinasi tiga bit data. Notasikan bit data ke-n sebagai dn, kita bisa menyimpan d1+d2+d4, d1+d3+d4, dan d2+d3+d4. Tentu karena pada skema kode kita hanya menginginkan angka 0 atau 1 saja, kita cukup simpan sebagai 0 bila hasil penjumlahannya genap dan 1 bila ganjil. Sebagai konsekuensi dari sistem penjumlahan seperti ini, jumlah dari dua bilangan yang sama senantiasa nol (karena jumlah dua bilangan apapun pastilah genap – dengan kata lain, x+x = 2x). Tiga jumlahan ini cukup untuk kita menyimpan informasi dari bit-bit data kita lainnya, seperti yang terlihat pada diagram Venn di bawah.
 
-Dengan terobosan baru berupa komputer, pemecahan rekor digit terbanyak pi hanyalah masalah performa prosesor. Sejak tahun 1989, semua komputasi digit pi menggunakan algoritma Chudnovsky. Sampai saat ini, digit pi terbanyak yang berhasil ditemukan sebanyak 100 triliun digit.
+![](venn.png)
 
-Kenapa matematikawan rela mencari banyak digit pi sampai triliunan? Sebelum era komputer, motivasi untuk mencari sebanyak mungkin digit pi adalah untuk mencari pola berulang dalam pecahan pi, atau dalam kata lain mencoba membuktikan bahwa pi adalah bilangan rasional. Barulah di abad ke-18 akhir Lambert dan Legendre membuktikan bahwa pi adalah bilangan irasional, atau bilangan yang tak dapat dinyatakan dalam pecahan bilangan bulat.
+Dari diagram di atas, terlihat juga kenapa kita tidak perlu menyimpan kombinasi d1+d2+d3, yakni karena informasi untuk mengecek bila terjadi galat pada salah satu dari d1, d2, atau d3 kita akan mendeteksinya via kombinasi lainnya. Kita namai masing-masing kombinasinya p1, p2, dan p3 (p dari kata “paritas”). 
 
-1/11=0.090909…
+|    p1    |    p2    |    p3    |
+|----------|----------|----------|
+| d1+d2+d4 | d1+d3+d4 | d2+d3+d4 |
 
-Angka “09” berulang, oleh karena itu 1/11 adalah bilangan rasional.
+Jika informasi yang kita ingin kirimkan adalah 1011, kita simpan dia dalam bentuk (p1, p2, d1, p3, d2, d3, d4), atau menjadi 0110011. Kita sebut ini sebagai **katakode**. Andai terdapat kesalahan, misal ia berubah menjadi 0110010, kita langsung tahu bahwa ada galat pada data yang kita terima karena d1+d2+d4 bernilai 1 dari seharusnya bernilai 0. Lebih canggih lagi, kita bisa mendesain kalkulasi berikut. 
 
-π=3.1415…
+Misal kita menerima kode (a1, a2, a3,a4,a5,a6,a7). Kita bisa menghitung
 
-Tidak ada angka berulang, oleh karena itu π bukanlah bilangan rasional.
+|      h1     |      h2     |      h3     |
+|-------------|-------------|-------------|
+| a1+a3+a5+a7 | a2+a3+a6+a7 | a4+a5+a6+a7 |
 
-Mungkin untuk kegiatan sehari-hari, seperti membangun rumah, jumlah digit pi yang diperlukan hanyalah sampai 3,14 saja. Namun, ada beberapa aplikasi dimana toleransi yang dibutuhkan jauh lebih sempit. Contohnya, NASA menggunakan pi dengan 15 digit di belakang koma: 3.141592653589793.
+Pada contoh di atas tadi, bila kita menerima 0110010, kita akan mendapatkan:
 
-Walaupun standar NASA, yang saat ini merupakan standar paling tinggi, hanya butuh **15 digit** di belakang koma, mengapa para matematikawan masih terus mencoba menembus rekor jumlah angka di belakang koma? Karena… penasaran aja. Rasa penasaran manusia yang ingin mengetahui lebih banyak lagi digit pi dari dulu memaksa manusia untuk menemukan metode-metode komputasi yang lebih efisien, dan metode-metode numerik ini lah yang juga dapat diterapkan dalam bidang-bidang lain.
+| h1 | h2 | h3 |
+|----|----|----|
+| 1  | 1  | 1  |
 
-![](angkasa.png)
+Jika kita jejer menjadi 111, kita dapatkan konversi biner ke desimal 111 → 7 (yakni 1*20 + 1*21 + 1*22), kita ketahui bahwa galat terjadi pada digit ketujuh (dan bisa segera kita koreksi dengan menukar 0 ke 1). Salah satu ide jenius dari penyusunan ini adalah skema h1, h2, dan h3 yang dapat memberi tahu di mana ada galat dan mengoreksi galatnya. Misalkan tidak terjadi galat, kita dapatkan bahwa:
 
-## References
-* David H. Bailey, J. M. (1997). The Quest for Pi. Mathematical Intelligencer, 50-57.
-* NASA/JPL Edu. (2022, October 24). How Many Decimals of Pi Do We Really Need? Retrieved from NASA/JPL Edu: https://www.jpl.nasa.gov/edu/news/2016/3/16/how-many-decimals-of-pi-do-we-really-need/
+h1 = a1+a3+a5+a7
+
+   = p1+d1+d2+d4
+
+   = (d1+d2+d4) + d1+ d2+d4
+
+   = 0
+
+dan serupa juga untuk h2 dan h3 (cobalah!). Jadi, jika kita mendapatkan h1, h2, dan h3 semuanya nol, setidaknya kita bisa tahu bahwa tidak terjadi satu atau dua buah kesalahan bit (skema ini bisa mendeteksi dua buah kesalahan bit, tetapi hanya bisa mengoreksi satu buah kesalahan bit).
+Jika ada kesalahan, misal a4 berubah menjadi a4 + ε, kita akan mendapatkan
+
+| h1          | h2          | h3              |
+|-------------|-------------|-----------------|
+| a1+a3+a5+a7 | a2+a3+a6+a7 | (a4+ε)+a5+a6+a7 |
+|-------------|-------------|-----------------|
+| = 0         | = 0         | = ε             |
+
+Karena skema kita hanyalah 0 atau 1, ε berarti bernilai 1 (karena 0 + 1 = 1 dan 1 + 1 = 0, *bit flip* sama saja dengan penjumlahan dengan 1). Dengan kata lain, kita dapatkan 100 (pada basis 2) yang berarti 4 pada basis 10 (desimal). Jadi, galat terjadi pada bit keempat. Bagaimana bila terjadi dua kesalahan? Untuk menjawab pertanyaan tersebut, kita perlu mengenal satu konsep lagi. Misalkan A =(a1, a2, a3,a4,a5,a6,a7) dan B = (b1, b2, b3,b4,b5,b6,b7) dua buah kata kode. Kita katakan **jarak Hamming** dari A dan B sebagai banyaknya bit yang berbeda di posisi yang sama dari A dan B. Kita notasikan jarak Hamming dari A dan B sebagai d(A,B) (dari kata *distance*). Sebagai contoh, katakode A = 0000000 dan B = 1110000 memiliki jarak Hamming 3, karena tiga bit pertama dari B bernilai berbeda dari A. Sekarang, dengan skema pengkodean yang kita miliki, kita mengkodekan (d1,d2, d3, d4) menjadi (p1, p2, d1, p3, d2, d3, d4). Mungkinkah pengkodean tersebut menghasilkan dua katakode dengan jarak Hamming 2?
+
+Andaikan A dan B memiliki dua perbedaan dan keduanya perbedaannya adalah pada bit data, misalkan pada d1 dan d2, maka karena p2=d1+d3+d4 dan p3=d2+d3+d4, dijamin p2 dan p3 pada A dan B juga akan berbeda. Mudah diverifikasi dengan cara serupa untuk menunjukkan bahwa pemilihan perbedaan pada bit data lain akan menghasilkan hasil serupa. Akibatnya, A dan B memiliki lebih dari dua perbedaan.
+
+Bila perbedaannya ada pada bit paritas, misalkan pada p1 dan p2, kita akan mendapatkan jumlahan d1+d2+d4 pada A dan B berbeda (dan demikian juga jumlahan d1+d3+d4 ). Akibatnya, salah satu dari d1, d2, d3,  atau d4 haruslah berbeda juga, sehingga tidak mungkin A dan B berbeda hanya pada dua posisi. Lagi-lagi kita bisa jalankan argumen serupa untuk bit paritas lainnya.
+
+Terakhir, bila perbedaan ada pada salah satu dari bit data dan salah satu dari bit paritas. Misalkan perbedaan terjadi pada d1 dan p1. Berarti jumlahan d1+d3+d4 pada A dan B berbeda. Akibatnya, haruslah setidaknya salah satu dari d3 dan d4 juga berbeda. Jadi, lagi-lagi perbedaannya tidak mungkin terjadi hanya pada dua buah bit. Kita bisa dengan penuh kegigihan menjalankan hal serupa untuk kombinasi lainnya untuk mendapat hasil serupa. 
+
+Karena skema kita tidak akan menghasilkan katakode dengan jarak Hamming 2, kesalahan pada dua posisi akan menghasilkan katakode yang tidak valid. Dengan demikian, kita akan tahu bahwa terjadi kesalahan (tetapi kita tidak bisa memperbaikinya).
+
+*(Note: Pembaca yang cukup rajin dapat mencoba membuktikan bahwa skema pengkodean yang kita miliki akan menghasilkan katakode dengan jarak Hamming minimal 3)*
+
+Kita bisa cukup pede mengoreksi jika terjadi satu buah kesalahan, tetapi jika kita dapatkan h3h2h1 = 000, belum tentu kode yang kita terima bebas dari kesalahan. Namun, hal ini lebih baik daripada tidak menggunakan skema pengoreksi galat sama sekali jika kita membutuhkan sistem yang lebih resilien terhadap kesalahan.
+
+*(Note: untuk pembaca yang pernah belajar aljabar linear, skema hitungan di atas lebih bagus dinyatakan sebagai perkalian matriks)*
+
+Skema di atas disebut sebagai kode Hamming, diciptakan oleh Richard Hamming pada tahun 1950. Lebih spesifiknya, skema di atas adalah kode Hamming(7,4), karena ia menggunakan 7 bit untuk mengkodekan 4 bit informasi. Sejak saat itu, banyak sekali skema lainnya yang lebih kompleks bermunculan, terinspirasi dari ide Pak Hamming. Salah satunya adalah skema CIRC (*cross interleaved Reed-Solomon code*) yang ditemui Metta di awal. Inilah yang digunakan untuk mengoreksi galat dari goresan pada CD. Modifikasi dari skema Reed-Solomon juga digunakan untuk berbagai hal, seperti mentransmisikan data dari satelit, menambah redundansi data pada penyimpanan server yang perlu reliabilitas tinggi (skema RAID, misalnya), dan lain-lain.
+
+![](ngantuk.png)
+
+Metta melihat jam sudah menunjukkan pukul 2 pagi ketika ia selesai *googling*. Dengan tumpukan CD yang masih berantakan, ia memutuskan untuk melanjutkan kurasinya selepas ia tidur. Mimpi indah Metta kala itu dihiasi dengan pertemuannya dengan Pak Richard Hamming yang sedang marah-marah pada komputer karena hanya memberi tahu ada galat tanpa bisa memberi tahu di mana galatnya. 
+
+![](mimpi.png)
+
+## References:
+* “History of Hamming Codes”. Archive link https://web.archive.org/web/20071025020847/https://biobio.loc.edu/chu/web/Courses/Cosi460/hamming_codes.htm.
+* Moon, Todd K. (2005). Error Correction Coding. New Jersey: John Wiley & Sons. ISBN 978-0-471-64800-0.
+* IBM documentation. (n.d.). https://www.ibm.com/docs/en/order-management-sw/9.3.0?topic=cpms-handling-credit-cards.
 
 Tim:
 * adriantom9
@@ -88,11 +136,11 @@ Tim:
 * Furra
 * Rubi
 
-Mettamatika vol. 0 – Pi
+Mettamatika vol. 0 – Error Correcting Code
 
-Text: adriantom9
+Text: ValeSuamiSahHayaseYuuka
 
-Illustration: adriantom9
+Illustration: izzako
 
 Cover: kucingeprek
 

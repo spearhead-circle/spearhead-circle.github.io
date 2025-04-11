@@ -1,5 +1,5 @@
 +++
-title = "Mettamatika vol. 0: Petualangan Cirno di 7 Jembatan Königsberg"
+title = "Mettamatika vol. 0: Petualangan Cirno di 7 Jembatan Konigsberg"
 date = "2023-12-16"
 description = "Mettamatika volume 0: Petualangan Cirno di 7 Jembatan Königsberg"
 tags = [
@@ -8,6 +8,8 @@ tags = [
     "Mettamatika Paruh"
 ]
 +++
+
+![](cover-cirno.png)
 
 # Selamat Datang di Königsberg!
 
