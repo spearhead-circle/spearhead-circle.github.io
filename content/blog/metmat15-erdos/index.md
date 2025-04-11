@@ -57,7 +57,8 @@ Dan impiannya terwujud, meski tidak sedramatis skenario yang dia bayangkan. Pada
 
 <div style="background-color:white">
 ![](supporting_2_grave.png)
-<div>
+<img src="supporting_2_grave.png">
+</div>
 
 # The Book 
 
