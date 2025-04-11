@@ -52,7 +52,7 @@ Metode poligon sudah ada selama sekitar 1600 tahun, dan rekor angka pi terakurat
 
 $$
 \begin{align}
-tan^{-1}x = \displaystyle \int_{0}^{x}\frac{dt}{1+t^2}= \displaystyle \int_{0}^{x}(1-t^2+t^4-t^6+...)dt \\
+tan^{-1}x & = \displaystyle \int_{0}^{x}\frac{dt}{1+t^2}= \displaystyle \int_{0}^{x}(1-t^2+t^4-t^6+...)dt \\
 & = x-\frac{x^3}{3}+\frac{x^5}{5}-\frac{x^7}{7}+\frac{x^9}{9}-... 
 \end{align}
 $$

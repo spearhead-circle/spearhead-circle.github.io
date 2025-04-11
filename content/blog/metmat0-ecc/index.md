@@ -64,11 +64,11 @@ Dari diagram di atas, terlihat juga kenapa kita tidak perlu menyimpan kombinasi 
 |-----------------|-----------------|-----------------|
 | \(d_1+d_2+d_4\) | \(d_1+d_3+d_4\) | \(d_2+d_3+d_4\) |
 
-Jika informasi yang kita ingin kirimkan adalah 1011, kita simpan dia dalam bentuk (p1, p2, d1, p3, d2, d3, d4), atau menjadi 0110011. Kita sebut ini sebagai **katakode**. Andai terdapat kesalahan, misal ia berubah menjadi 0110010, kita langsung tahu bahwa ada galat pada data yang kita terima karena d1+d2+d4 bernilai 1 dari seharusnya bernilai 0. Lebih canggih lagi, kita bisa mendesain kalkulasi berikut. 
+Jika informasi yang kita ingin kirimkan adalah 1011, kita simpan dia dalam bentuk (\(p_1\), \(p_2\), \(d_1\), \(p_3\), \(d_2\), \(d_3\), \(d_4\)), atau menjadi 0110011. Kita sebut ini sebagai **katakode**. Andai terdapat kesalahan, misal ia berubah menjadi 0110010, kita langsung tahu bahwa ada galat pada data yang kita terima karena \(d_1+d_2+d_4\) bernilai 1 dari seharusnya bernilai 0. Lebih canggih lagi, kita bisa mendesain kalkulasi berikut. 
 
-Misal kita menerima kode (a1, a2, a3,a4,a5,a6,a7). Kita bisa menghitung
+Misal kita menerima kode (\(a_1\), \(a_2\), \(a_3\), \(a_4\), \(a_5\), \(a_6\), \(a_7\)). Kita bisa menghitung
 
-|      h1     |      h2     |      h3     |
+|      h_1     |      h_2     |      h_3     |
 |-------------|-------------|-------------|
 | a1+a3+a5+a7 | a2+a3+a6+a7 | a4+a5+a6+a7 |
 
