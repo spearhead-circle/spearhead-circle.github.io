@@ -82,10 +82,10 @@ Jika kita jejer menjadi 111, kita dapatkan konversi biner ke desimal 111 → 7 (
 
 $$
 \begin{align}
-h_1 & = a_1+a_3+a_5+a_7
-   = p_1+d_1+d_2+d_4
-   = - (d_1+d_2+d_4) + d_1+ d_2+d_4
-   = 0
+h_1 & = a_1+a_3+a_5+a_7 \\
+& = p_1+d_1+d_2+d_4 \\
+& = - (d_1+d_2+d_4) + d_1+ d_2+d_4 \\
+& = 0
 \end{align}
 $$
 
