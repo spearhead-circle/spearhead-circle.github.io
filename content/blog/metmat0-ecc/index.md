@@ -64,6 +64,14 @@ Dari diagram di atas, terlihat juga kenapa kita tidak perlu menyimpan kombinasi 
 |-----------------|-----------------|-----------------|
 | \(d_1+d_2+d_4\) | \(d_1+d_3+d_4\) | \(d_2+d_3+d_4\) |
 
+<table>
+    <tr>
+        <th>\(p_1\)</th>
+        <th>\(p_2\)</th>
+        <th>\(p_3\)</th>
+    </tr>
+</table>
+
 Jika informasi yang kita ingin kirimkan adalah 1011, kita simpan dia dalam bentuk (\(p_1\), \(p_2\), \(d_1\), \(p_3\), \(d_2\), \(d_3\), \(d_4\)), atau menjadi 0110011. Kita sebut ini sebagai **katakode**. Andai terdapat kesalahan, misal ia berubah menjadi 0110010, kita langsung tahu bahwa ada galat pada data yang kita terima karena \(d_1+d_2+d_4\) bernilai 1 dari seharusnya bernilai 0. Lebih canggih lagi, kita bisa mendesain kalkulasi berikut. 
 
 Misal kita menerima kode (\(a_1\), \(a_2\), \(a_3\), \(a_4\), \(a_5\), \(a_6\), \(a_7\)). Kita bisa menghitung
@@ -97,11 +105,11 @@ Jika ada kesalahan, misal \(a_4\) berubah menjadi \(a_4 + ε\), kita akan mendap
 | \(a1+a3+a5+a7\) | \(a2+a3+a6+a7\) | \((a4+ε)+a5+a6+a7\) |
 | \(= 0\)         | \(= 0\)         | \(= ε\)             |
 
-Karena skema kita hanyalah 0 atau 1, ε berarti bernilai 1 (karena 0 + 1 = 1 dan 1 + 1 = 0, *bit flip* sama saja dengan penjumlahan dengan 1). Dengan kata lain, kita dapatkan 100 (pada basis 2) yang berarti 4 pada basis 10 (desimal). Jadi, galat terjadi pada bit keempat. Bagaimana bila terjadi dua kesalahan? Untuk menjawab pertanyaan tersebut, kita perlu mengenal satu konsep lagi. Misalkan \(A =(a_1, a_2, a_3,a_4,a_5,a_6,a_7)\) dan \(B = (b_1, b_2, b_3,b_4,b_5,b-6,b_7)\) dua buah kata kode. Kita katakan **jarak Hamming** dari A dan B sebagai banyaknya bit yang berbeda di posisi yang sama dari A dan B. Kita notasikan jarak Hamming dari A dan B sebagai d(A,B) (dari kata *distance*). Sebagai contoh, katakode A = 0000000 dan B = 1110000 memiliki jarak Hamming 3, karena tiga bit pertama dari B bernilai berbeda dari A. Sekarang, dengan skema pengkodean yang kita miliki, kita mengkodekan \((d_1,d_2, d_3, d_4)\) menjadi \((p_1, p_2, d_1, p_3, d_2, d_3, d_4)\). Mungkinkah pengkodean tersebut menghasilkan dua katakode dengan jarak Hamming 2?
+Karena skema kita hanyalah 0 atau 1, ε berarti bernilai 1 (karena 0 + 1 = 1 dan 1 + 1 = 0, *bit flip* sama saja dengan penjumlahan dengan 1). Dengan kata lain, kita dapatkan 100 (pada basis 2) yang berarti 4 pada basis 10 (desimal). Jadi, galat terjadi pada bit keempat. Bagaimana bila terjadi dua kesalahan? Untuk menjawab pertanyaan tersebut, kita perlu mengenal satu konsep lagi. Misalkan \(A =(a_1, a_2, a_3,a_4,a_5,a_6,a_7)\) dan \(B = (b_1, b_2, b_3,b_4,b_5,b_6,b_7)\) dua buah kata kode. Kita katakan **jarak Hamming** dari A dan B sebagai banyaknya bit yang berbeda di posisi yang sama dari A dan B. Kita notasikan jarak Hamming dari A dan B sebagai d(A,B) (dari kata *distance*). Sebagai contoh, katakode A = 0000000 dan B = 1110000 memiliki jarak Hamming 3, karena tiga bit pertama dari B bernilai berbeda dari A. Sekarang, dengan skema pengkodean yang kita miliki, kita mengkodekan \((d_1,d_2, d_3, d_4)\) menjadi \((p_1, p_2, d_1, p_3, d_2, d_3, d_4)\). Mungkinkah pengkodean tersebut menghasilkan dua katakode dengan jarak Hamming 2?
 
 Andaikan A dan B memiliki dua perbedaan dan keduanya perbedaannya adalah pada bit data, misalkan pada d1 dan d2, maka karena \(p2=d_1+d_3+d_4\) dan \(p_3=d_2+d_3+d_4\), dijamin \(p_2\) dan \(p_3\) pada A dan B juga akan berbeda. Mudah diverifikasi dengan cara serupa untuk menunjukkan bahwa pemilihan perbedaan pada bit data lain akan menghasilkan hasil serupa. Akibatnya, A dan B memiliki lebih dari dua perbedaan.
 
-Bila perbedaannya ada pada bit paritas, misalkan pada \(p_1\) dan \(p_2\), kita akan mendapatkan jumlahan d1+d2+d4 pada A dan B berbeda (dan demikian juga jumlahan \(d_1+d_3+d_4\) ). Akibatnya, salah satu dari \(d_1\), \(d_2\), \(d_3\), atau \(d_4\) haruslah berbeda juga, sehingga tidak mungkin A dan B berbeda hanya pada dua posisi. Lagi-lagi kita bisa jalankan argumen serupa untuk bit paritas lainnya.
+Bila perbedaannya ada pada bit paritas, misalkan pada \(p_1\) dan \(p_2\), kita akan mendapatkan jumlahan \(d_1+d_2+d_4\) pada A dan B berbeda (dan demikian juga jumlahan \(d_1+d_3+d_4\) ). Akibatnya, salah satu dari \(d_1\), \(d_2\), \(d_3\), atau \(d_4\) haruslah berbeda juga, sehingga tidak mungkin A dan B berbeda hanya pada dua posisi. Lagi-lagi kita bisa jalankan argumen serupa untuk bit paritas lainnya.
 
 Terakhir, bila perbedaan ada pada salah satu dari bit data dan salah satu dari bit paritas. Misalkan perbedaan terjadi pada \(d_1\) dan \(p_1\). Berarti jumlahan \(d_1+d_3+d_4\) pada A dan B berbeda. Akibatnya, haruslah setidaknya salah satu dari \(d_3\) dan \(d_4\) juga berbeda. Jadi, lagi-lagi perbedaannya tidak mungkin terjadi hanya pada dua buah bit. Kita bisa dengan penuh kegigihan menjalankan hal serupa untuk kombinasi lainnya untuk mendapat hasil serupa. 
 
