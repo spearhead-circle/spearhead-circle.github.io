@@ -51,7 +51,8 @@ Dengan metode ini, Archimedes berhasil mendapatkan nilai pi berada di antara 223
 Metode poligon sudah ada selama sekitar 1600 tahun, dan rekor angka pi terakurat masih berada di 14 bilangan di belakang koma. Rekor tersebut dipegang oleh Al-Kashi dari Samarkand pada sekitar tahun 1430. Penemuan kalkulus oleh Newton dan Leibniz pada tahun 1600an menyumbangkan banyak rumus-rumus baru dalam penemuan digit-digit pi lainnya, dengan salah satu metode umum yang dipakai adalah dengan ekspansi deret Taylor.
 
 $$
-tan^{-1}x = \displaystyle \int_{0}^{x}f(x)dx
+tan^{-1}x = \displaystyle \int_{0}^{x}\frac{dt}{1+t^2}= \displaystyle \int_{0}^{x}(1-t^2+t^4-t^6+...)dt
+    = x-\frac{x^3}{3}+\frac{x^5}{5}-\frac{x^7}{7}+\frac{x^9}{9}-... 
 $$
 
 ![](rumus.png)
@@ -64,11 +65,15 @@ Dengan terobosan baru berupa komputer, pemecahan rekor digit terbanyak pi hanyal
 
 Kenapa matematikawan rela mencari banyak digit pi sampai triliunan? Sebelum era komputer, motivasi untuk mencari sebanyak mungkin digit pi adalah untuk mencari pola berulang dalam pecahan pi, atau dalam kata lain mencoba membuktikan bahwa pi adalah bilangan rasional. Barulah di abad ke-18 akhir Lambert dan Legendre membuktikan bahwa pi adalah bilangan irasional, atau bilangan yang tak dapat dinyatakan dalam pecahan bilangan bulat.
 
+$$
 1/11=0.090909…
+$$
 
 Angka “09” berulang, oleh karena itu 1/11 adalah bilangan rasional.
 
+$$
 π=3.1415…
+$$
 
 Tidak ada angka berulang, oleh karena itu π bukanlah bilangan rasional.
 
