@@ -140,40 +140,40 @@ Tabel kemungkinan untuk 4 bola
 
 <table>
     <tr>
-        <th>1234</th>
-        <th>1243</th>
-        <th>2134</th>
-        <th>2143</th>
+        <td>1234</td>
+        <td>1243</td>
+        <td>2134</td>
+        <td>2143</td>
     </tr>
     <tr>
-        <th>3124</th>
-        <th>3142</th>
-        <th>4123</th>
-        <th>4132</th>
+        <td>3124</td>
+        <td>3142</td>
+        <td>4123</td>
+        <td>4132</td>
     </tr>
     <tr>
-        <th>1324</th>
-        <th>1342</th>
-        <th>2314</th>
-        <th>2341</th>
+        <td>1324</td>
+        <td>1342</td>
+        <td>2314</td>
+        <td>2341</td>
     </tr>
     <tr>
-        <th>3214</th>
-        <th>3241</th>
-        <th>4213</th>
-        <th>4231</th>
+        <td>3214</td>
+        <td>3241</td>
+        <td>4213</td>
+        <td>4231</td>
     </tr>
     <tr>
-        <th>1423</th>
-        <th>1432</th>
-        <th>2413</th>
-        <th>2431</th>
+        <td>1423</td>
+        <td>1432</td>
+        <td>2413</td>
+        <td>2431</td>
     </tr>
     <tr>
-        <th>3412</th>
-        <th>3421</th>
-        <th>4312</th>
-        <th>4321</th>
+        <td>3412</td>
+        <td>3421</td>
+        <td>4312</td>
+        <td>4321</td>
     </tr>
 </table>
 
