@@ -68,25 +68,26 @@ Jika informasi yang kita ingin kirimkan adalah 1011, kita simpan dia dalam bentu
 
 Misal kita menerima kode (\(a_1\), \(a_2\), \(a_3\), \(a_4\), \(a_5\), \(a_6\), \(a_7\)). Kita bisa menghitung
 
-|      h_1     |      h_2     |      h_3     |
-|-------------|-------------|-------------|
-| a1+a3+a5+a7 | a2+a3+a6+a7 | a4+a5+a6+a7 |
+|       \(h_1\)       |       \(h_2\)       |       \(h_3\)       |
+|---------------------|---------------------|---------------------|
+| \(a_1+a_3+a_5+a_7\) | \(a_2+a_3+a_6+a_7\) | \(a_4+a_5+a_6+a_7\) |
 
 Pada contoh di atas tadi, bila kita menerima 0110010, kita akan mendapatkan:
 
-| h1 | h2 | h3 |
-|----|----|----|
-| 1  | 1  | 1  |
+| \(h_1\) | \(h_2\) | \(h_3\) |
+|---------|---------|---------|
+|    1    |    1    |    1    |
 
-Jika kita jejer menjadi 111, kita dapatkan konversi biner ke desimal 111 → 7 (yakni 1\*2<sup>0</sup> + 1\*2<sup>1</sup> + 1*2<sup>2</sup>), kita ketahui bahwa galat terjadi pada digit ketujuh (dan bisa segera kita koreksi dengan menukar 0 ke 1). Salah satu ide jenius dari penyusunan ini adalah skema h1, h2, dan h3 yang dapat memberi tahu di mana ada galat dan mengoreksi galatnya. Misalkan tidak terjadi galat, kita dapatkan bahwa:
+Jika kita jejer menjadi 111, kita dapatkan konversi biner ke desimal 111 → 7 (yakni \(1*2^0 + 1*2^1 + 1*2^2\)), kita ketahui bahwa galat terjadi pada digit ketujuh (dan bisa segera kita koreksi dengan menukar 0 ke 1). Salah satu ide jenius dari penyusunan ini adalah skema \(h_1\), \(h_2\), dan \(h_3\) yang dapat memberi tahu di mana ada galat dan mengoreksi galatnya. Misalkan tidak terjadi galat, kita dapatkan bahwa:
 
-h1 = a1+a3+a5+a7
-
-   = p1+d1+d2+d4
-
-   = (d1+d2+d4) + d1+ d2+d4
-
+$$
+\begin{align}
+h_1 & = a_1+a_3+a_5+a_7
+   = p_1+d_1+d_2+d_4
+   = - (d_1+d_2+d_4) + d_1+ d_2+d_4
    = 0
+\end{align}
+$$
 
 dan serupa juga untuk h2 dan h3 (cobalah!). Jadi, jika kita mendapatkan h1, h2, dan h3 semuanya nol, setidaknya kita bisa tahu bahwa tidak terjadi satu atau dua buah kesalahan bit (skema ini bisa mendeteksi dua buah kesalahan bit, tetapi hanya bisa mengoreksi satu buah kesalahan bit).
 Jika ada kesalahan, misal a4 berubah menjadi a4 + ε, kita akan mendapatkan

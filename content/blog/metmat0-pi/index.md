@@ -57,8 +57,6 @@ tan^{-1}x & = \displaystyle \int_{0}^{x}\frac{dt}{1+t^2}= \displaystyle \int_{0}
 \end{align}
 $$
 
-![](rumus.png)
-
 Sampai pada tahun 1946, penghitungan nilai pi dilakukan secara manual di atas kertas dengan rekor tertinggi 620 digit oleh D.F. Ferguson. Terobosan berikutnya dalam penghitungan digit pi datang bersamaan dengan ditemukannya teknologi baru: **komputer**.
  
 ![](computers.png)
