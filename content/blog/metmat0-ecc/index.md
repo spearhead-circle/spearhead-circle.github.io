@@ -119,11 +119,6 @@ $$
 dan serupa juga untuk \(h_2\) dan \(h_3\) (cobalah!). Jadi, jika kita mendapatkan  \(h_1\), \(h_2\), dan \(h_3\) semuanya nol, setidaknya kita bisa tahu bahwa tidak terjadi satu atau dua buah kesalahan bit (skema ini bisa mendeteksi dua buah kesalahan bit, tetapi hanya bisa mengoreksi satu buah kesalahan bit).
 Jika ada kesalahan, misal \(a_4\) berubah menjadi \(a_4 + ε\), kita akan mendapatkan
 
-| \(h_1\)         | \(h_2\)         | \(h_3\)             |
-|-----------------|-----------------|---------------------|
-| \(a1+a3+a5+a7\) | \(a2+a3+a6+a7\) | \((a4+ε)+a5+a6+a7\) |
-| \(= 0\)         | \(= 0\)         | \(= ε\)             |
-
 <table>
     <tr>
         <th>\(h_1\)</th>
@@ -133,20 +128,20 @@ Jika ada kesalahan, misal \(a_4\) berubah menjadi \(a_4 + ε\), kita akan mendap
     <tr>
         <th>
             $$
-            \(a1+a3+a5+a7\) \\
-            \(= 0\)
+            a1+a3+a5+a7 \\
+            = 0
             $$
         </th>
         <th>
             $$
-            \(a2+a3+a6+a7\) \\
-            \(= 0\)
+            a2+a3+a6+a7 \\
+            = 0
             $$
         </th>
         <th>
             $$
-            \((a4+ε)+a5+a6+a7\) \\
-            \(= ε\)
+            (a4+ε)+a5+a6+a7 \\
+            = ε
             $$
         </th>
     </tr>
