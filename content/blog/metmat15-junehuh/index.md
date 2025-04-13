@@ -45,7 +45,7 @@ Heisuke Hironaka adalah matematikawan Jepang termasyhur, dan merupakan matematik
 
 Hironaka datang di SNU sebagai dosen tamu, dan ia membuka kelas yang bisa diikuti mahasiswa umum. Sebagai mahasiswa yang sempat bermimpi menjadi jurnalis sains, June kemudian memutuskan untuk menyusup masuk ke kelas Hironaka. Ia pikir, siapa tahu ia bisa mewawancarai beliau dan menghasilkan artikel ringan. Mungkin dengan artikel ini, ia bisa kembali memupuk mimpinya menjadi jurnalis.
 
-Sialnya, kuliah tamu Hironaka bukanlah kuliah tamu biasa. Memang judul materi yang beliau ajarkan waktu itu adalah aljabar geometri, mata kuliah yang lazim diambil mahasiswa S2/S3 matematika di luar negeri. Akan tetapi, isi materi yang beliau ajarkan bukanlah materi yang lazim dipelajari mahasiswa S2/S3. Lebih dari itu, materi yang beliau ajarkan adalah materi-materi “(singularity theory)”, yang… anggap saja topik penelitian utama dia sebagai matematikawan lah. Heh, bahkan penulis zine ini tidak mengerti apa itu “*singularity theory*”.
+Sialnya, kuliah tamu Hironaka bukanlah kuliah tamu biasa. Memang judul materi yang beliau ajarkan waktu itu adalah aljabar geometri, mata kuliah yang lazim diambil mahasiswa S2/S3 matematika di luar negeri. Akan tetapi, isi materi yang beliau ajarkan bukanlah materi yang lazim dipelajari mahasiswa S2/S3. Lebih dari itu, materi yang beliau ajarkan adalah materi-materi “*singularity theory*”, yang… anggap saja topik penelitian utama dia sebagai matematikawan lah. Heh, bahkan penulis zine ini tidak mengerti apa itu “*singularity theory*”.
 
 Karena materi yang diajarkan beliau *anti-mainstream*, cara pengajarannya pun tidak lazim pula. Alur materinya bisa dibilang tidak berdasarkan buku teks aljabar geometri apapun. Karena topik ini adalah topik riset beliau, pendekatan beliau dalam mengajarkan topik ini laksana pendekatan orang yang meriset matematika; masih berdasar *mood* dan oret-oretan penelitiannya di hari sebelumnya.
 
@@ -141,7 +141,8 @@ Furra
 
 Sydney, 
 
-Sumber
+# Sumber
+
 * Burch, A. (2022, July 5). June Huh, high school dropout, wins the Fields Medal. Quanta Magazine. https://www.quantamagazine.org/june-huh-high-school-dropout-wins-the-fields-medal-20220705/
 * Kahn, J. (2022, July 5). A mathematician’s journey from dropout to Fields Medal winner. The New York Times. https://www.nytimes.com/2022/07/05/science/june-huh-heisuke-hironaka-math-chromatic-geometry.html
 * Kwon, M. (2017, June 27). A path less taken to the peak of the math world. Quanta Magazine. https://www.quantamagazine.org/a-path-less-taken-to-the-peak-of-the-math-world-20170627/
