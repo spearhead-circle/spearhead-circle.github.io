@@ -17,13 +17,13 @@ tags = [
 
 Pada suatu hari, Scara menemukan peta harta karun yang berisi sebuah lokasi dan suatu *clue*. 
 
-!()[sc1.png]
+![](sc1.png)
 
 Setelah tiba di lokasinya, Scara menemukan sebuah *tile*. Setelah diinjak, *tile* tersebut menyala dan *tile* berukuran 3x3 pun muncul. Kemudian ia mencoba untuk menginjak *tile* sebelahnya dan *tile* tersebut menyala. Namun, saat Scara kembali ke *tile* awal, lampunya menjadi kembali mati. Setelah mencoba beberapa kali, Scara menyimpulkan bahwa mekanisme *puzzle*-nya adalah sebagai berikut:
 
 *	Terdapat satu *tile* tunggal dalam keadaan mati, ditandakan dengan bintang dalam *clue*-nya, sebut saja titik pijak awal.
 *	Ketika *tile* tersebut diinjak, *tile* tersebut akan menyala dan 8 *tile* lainnya akan muncul sehingga membentuk *grid* berukuran 3x3.
-*	Scara hanya bisa bergerak ke atas, bawah, kiri, atau kanan (tidak bisa diagonal).
+*	Scara hanya bisa bergerak ke atas, bawah, kiri, atau kanan [tidak bisa diagonal].
 *	Ketika diinjak, *tile* yang awalnya mati akan menyala, dan sebaliknya, jika diinjak lagi, *tile* yang awalnya menyala akan menjadi mati.
 *	*Tile* yang berbintang pada *clue* adalah *tile* yang pertama kali diinjak.
 *	Pada *clue*, *tile* yang berwarna hitam artinya menyala, dan *tile* yang berwarna putih artinya mati.
@@ -31,7 +31,7 @@ Setelah tiba di lokasinya, Scara menemukan sebuah *tile*. Setelah diinjak, *tile
 
 Jika dilihat dari *clue* sebelumnya, sepertinya Scara harus membuat pola yang sama dengan yang ada di *clue*. Dapatkah kamu mencoba untuk mencari jalur supaya *puzzle* tersebut terpecahkan? Setelah mencoba, Scara menemukan jalur ini yang dapat menyelesaikan *puzzle*-nya.
 
-!()[sc2.png]
+![](sc2.png)
 
 Perhatikan bahwa *tile* yang ditengah diinjak dua kali sehingga keadaan akhir *tile* tersebut adalah mati. Sekarang, bisakah kalian menemukan jalur berbeda untuk menyelesaikan *puzzle* di atas?
 
@@ -39,17 +39,17 @@ Perhatikan bahwa *tile* yang ditengah diinjak dua kali sehingga keadaan akhir *t
 
 Beberapa hari kemudian, Scara menemukan *puzzle* yang sama, tapi kali ini lebih besar, berukuran 5x5. Dapatkah kalian menyelesaikan *puzzle* ini?
 
-!()[sc3.png]
+![](sc3.png)
 
 Ternyata, semua *puzzle* berukuran m x n dapat memiliki solusi. Namun, sebelum mencapai kesimpulan itu, Scara menemukan beberapa observasi kecil terlebih dahulu.
 
 Pertama, *grid* berukuran m x n dapat diubah menjadi *grid* berukuran 1 x mn dengan cara mengular. Maka, jika Scara dapat menyelesaikan semua *puzzle* yang lurus, maka dia dapat menyelesaikan *puzzle* dengan ukuran apa pun.
 
-!()[sc4.png]
+![](sc4.png)
 
 Kedua, Scara dapat mengubah kondisi *tile* yang sedang diinjaknya sambil maju sebanyak 1 *tile*.
 
-!()[sc5.png]
+![](sc5.png)
 *Ilustrasi langkah-langkah yang Scara lakukan untuk menyalakan tile yang sedang diinjaknya.*
 
 Perhatikan bahwa setelah melakukan langkah di atas, Scara bergerak ke *tile* sebelahnya, dan *tile* sebelumnya berubah dari mati menjadi menyala.
@@ -58,7 +58,7 @@ Dari kedua observasi di atas, dapat dibuat sebuah langkah umum untuk menyelesaik
 
 Sekarang, kita bisa menyelesaikan *puzzle* di awal dengan cara ini. 
 
-!()[sc6.png]
+![](sc6.png)
 
 Apakah jalur yang kalian temukan sama dengan jalur yang dibuat oleh langkah ini? Apakah jalur ini adalah jalur yang tercepat (dengan langkah tersingkat) untuk menyelesaikan *puzzle* ini? Apakah kalian bisa memikirkan cara untuk mencari jalur yang tercepat? Apakah setiap *puzzle* dapat diselesaikan dengan menggunakan langkah di atas?
 
