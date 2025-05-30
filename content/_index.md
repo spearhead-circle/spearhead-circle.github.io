@@ -18,3 +18,5 @@ Jangan lupa untuk follow social media kami di:
 [Instagram](https://www.instagram.com/spearhead_circle)
 
 [Tokopedia](https://www.tokopedia.com/spearheadcircle)
+
+[Shopee](https://shopee.co.id/shop/449539190)
