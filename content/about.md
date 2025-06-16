@@ -3,12 +3,7 @@ title = "About"
 menu = "main"
 +++
 
-<button><table>
-    <tr>
-        <th>![](images/favicon.jpg)</th>
-        <th>test</th>
-    </tr>
-</table></button>
+<button><div class="thumbnail">![](images/favicon.png)</div> test</button>
 
 # About
 
