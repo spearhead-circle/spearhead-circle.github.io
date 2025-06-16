@@ -7,10 +7,10 @@ title = "Spearhead Circle"
 
 ![](images/banner.jpg)
 
-<a href="https://shopee.co.id/shop/449539190"><button>Shopee</button></a>
-<a href="https://www.tokopedia.com/spearheadcircle"><button>Tokopedia</button></a>
-<a href="https://www.facebook.com/profile.php?id=100089620167900"><button>Facebook: Spearhead Circle</button></a>
-<a href="https://www.instagram.com/spearhead_circle"><button>Instagram: @spearhead_circle</button></a>
+<a href="https://shopee.co.id/shop/449539190"><button><div class="thumbnail">![](images/favicon.png)</div>Shopee</button></a>
+<a href="https://www.tokopedia.com/spearheadcircle"><button><div class="thumbnail">![](images/favicon.png)</div>Tokopedia</button></a>
+<a href="https://www.facebook.com/profile.php?id=100089620167900"><button><div class="thumbnail">![](images/favicon.png)</div>Facebook: Spearhead Circle</button></a>
+<a href="https://www.instagram.com/spearhead_circle"><button><div class="thumbnail">![](images/favicon.png)</div>Instagram: @spearhead_circle</button></a>
 
 # Selamat datang di arsip Spearhead Circle!
 
