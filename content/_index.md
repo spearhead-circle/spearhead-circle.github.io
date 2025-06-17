@@ -7,8 +7,8 @@ title = "Spearhead Circle"
 
 ![](images/banner.jpg)
 
-<a href="https://shopee.co.id/shop/449539190"><button><div class="thumbnail">![](images/spearhead.png)</div>Shopee</button></a>
-<a href="https://www.tokopedia.com/spearheadcircle"><button><div class="thumbnail">![](images/spearhead.png)</div>Tokopedia</button></a>
+<a href="https://shopee.co.id/shop/449539190"><button><div class="thumbnail">![](images/shopee.png)</div>Shopee</button></a>
+<a href="https://www.tokopedia.com/spearheadcircle"><button><div class="thumbnail">![](images/tokped.png)</div>Tokopedia</button></a>
 <a href="https://www.facebook.com/profile.php?id=100089620167900"><button><div class="thumbnail">![](images/spearhead.png)</div>Facebook: Spearhead Circle</button></a>
 <a href="https://www.instagram.com/spearhead_circle"><button><div class="thumbnail">![](images/spearhead.png)</div>Instagram: @spearhead_circle</button></a>
 
