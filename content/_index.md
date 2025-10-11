@@ -7,7 +7,7 @@ title = "Spearhead Circle"
 
 <a href="http://bit.ly/SPEARHEAD-CF21">![](images/banner.jpg)</a>
 
-<a href="bit.ly/METMAT-COCOMA25"><button><div class="thumbnail">![](images/spearhead.png)</div>OPEN PRE-ORDER METMAT 1 & 2 - COCOMA 3 2025</button></a>
+<a href="http://bit.ly/SPEARHEAD-CF21"><button><div class="thumbnail">![](images/spearhead.png)</div>OPEN PRE-ORDER 1 COMIFURO 21</button></a>
 <a href="https://shopee.co.id/shop/449539190"><button><div class="thumbnail">![](images/shopee.png)</div>Shopee</button></a>
 <a href="https://www.tokopedia.com/spearheadcircle"><button><div class="thumbnail">![](images/tokped.png)</div>Tokopedia</button></a>
 [<button><div class="thumbnail">![](images/spearhead.png)</div>Mettamatika paruh (vol. 0 dan 1,5)</button>](blog/mettamatika-paruh)
