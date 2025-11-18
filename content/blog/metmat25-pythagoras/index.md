@@ -46,6 +46,7 @@ karena kurangnya bukti peninggalan yang tersisa, tidak
 ada salahnya sebelum membahas teoremanya, kita
 berkenalan dengan sang penggagas teoremanya terlebih
 dahulu. Tak kenal tak sayang bukan?
+
 Pythagoras merasa dirinya adalah seorang filsuf. Dia
 adalah seorang yang sangat bijak dan dihormati karena
 sifat bijaknya. Lahir dan besar di Samos, sebuah pulau di
@@ -56,29 +57,26 @@ astronomi. Setelah menimba cukup banyak ilmu, dia pun
 mendirikan sekolah di Crotone untuk perkembangan
 Magna Graecia dan mengumpulkan banyak murid yang
 sangat patuh dan taat padanya.
+
 Di sekolah ini, Pythagoras menanamkan doktrin-doktrin
 filosofis yang kuat sehingga sangat amat dipatuhi oleh
 pengikutnya. Beberapa di antaranya adalah veganisme,
 reinkarnasi, dan yang tidak kalah penting adalah angka
-sebagai pondasi kehidupan. Mereka percaya bahwa
-
-semua hal di dunia ini dapat diwakili oleh angka dan
+sebagai pondasi kehidupan. Mereka percaya bahwa semua hal di dunia ini dapat diwakili oleh angka dan
 angka adalah akar dari segala hal di dunia. Pada
 dasarnya mereka percaya bahwa alam semesta bersifat
 rasional, terukur, dan dapat dideskripsikan dengan
 perbandingan pecahan.
+
 Selain itu, Pythagoras juga mengakui adanya hierarki
 dalam berfilosofi. Oleh karenanya, para kandidat yang
-mendaftar ke sekolah ini diobservasi terlebih dahulu dari
-
-segala aspek kehidupannya, mulai kegiatan sehari-
-harinya, hingga hubungan dengan keluarganya. Setelah
-
-diterima pun, para murid masih harus menjalani masa
+mendaftar ke sekolah ini diobservasi terlebih dahulu dari segala aspek kehidupannya, mulai kegiatan sehari-
+harinya, hingga hubungan dengan keluarganya. Setelah diterima pun, para murid masih harus menjalani masa
 probasi hingga maksimal 5 tahun. Setelahnya, murid
 dikelompokkan menjadi dua kelompok, Hearers atau
 Akousmatikoi, dan Students atau Mathematikoi,
 tergantung dari penilaian selama probasi.
+
 Hearers adalah murid yang hanya dapat mendengar
 materi dari Pythagoras tanpa tatap muka. Bukan,
 maksudnya bukan belajar daring via Zoom tentu saja, ini
@@ -86,12 +84,11 @@ masih abad sebelum masehi. Maksud dari tidak tatap
 muka adalah, selama mengajar Pythagoras berada di
 balik tirai dan menggunakan pasir yang terhampar
 sebagai media untuk menggambarkan atau menuliskan
-sesuatu, jadi murid-murid secara harfiah tidak bertatap
-
-muka dengan Sang Guru. Beda halnya dengan Students,
+sesuatu, jadi murid-murid secara harfiah tidak bertatap muka dengan Sang Guru. Beda halnya dengan Students,
 mereka konon dapat bertatap muka dengan Sang Guru,
 bahkan berdiskusi dengannya. Ya, perbedaan strata
 sangat terasa di sini.
+
 Selain pengelompokkan seperti itu, banyak hal lain yang
 mungkin terdengar cukup aneh di sekolah ini. Seperti
 Pythagoras yang dikabarkan hanya menyebarkan
@@ -124,7 +121,7 @@ dikenal sebagai penemu teorema ini.
 
 Jadi, inti dari teorema itu adalah, jika ada segitiga siku-
 siku dengan panjang sisi a, b, dan c, dengan c adalah sisi miringnya, maka sisi-sisi tersebut akan memenuhi
-persamaan $a^2+b^2=c^2. Untuk lebih jelasnya, kalian bisa melihat gambar di bawah ini
+persamaan $(a^2+b^2=c^2)$. Untuk lebih jelasnya, kalian bisa melihat gambar di bawah ini
 
 ![](SegitigaPythagoras-01.png)
 Gambar 3. Segitiga siku-siku
@@ -141,24 +138,22 @@ Gambar 4. Segitiga siku-siku dan persegi berukuran sesuai dengan panjang sisi se
 
 Dapat dilihat bahwa persegi yang berada di sebelah kiri
 memiliki panjang sisi a yang juga merupakan ukuran dari
-tinggi segitiga, sehingga luasnya adalah $a^2. Hal yang sama juga berlaku untuk persegi di bawah segitiga yang bersinggungan dengan alas segitiga, dan persegi di kanan yang bersinggungan dengan sisi miring segitiga.
+tinggi segitiga, sehingga luasnya adalah $(a^2)$. Hal yang sama juga berlaku untuk persegi di bawah segitiga yang bersinggungan dengan alas segitiga, dan persegi di kanan yang bersinggungan dengan sisi miring segitiga.
 
 Dari sini, Pythagoras dapat berteori kalau kuadrat dari masing-masing panjang alas dan tinggi segitiga dijumlahkan, hasilnya akan sama dengan kuadrat dari
-sisi miringnya, atau secara matematis dapat ditulis $a^2+b^2=c^2 dengan a dan b adalah sisi alas dan tinggi segitiga siku-siku, dan c adalah sisi miring segitiga tersebut. Harap ingat bahwa kuadrat dari panjang sisi tersebut sama dengan luas persegi yang bersinggungan,
+sisi miringnya, atau secara matematis dapat ditulis $(a^2+b^2=c^2)$ dengan a dan b adalah sisi alas dan tinggi segitiga siku-siku, dan c adalah sisi miring segitiga tersebut. Harap ingat bahwa kuadrat dari panjang sisi tersebut sama dengan luas persegi yang bersinggungan,
 sehingga persamaan tersebut dapat kita gambarkan sebagai berikut.
 
 ![](SegitigaPythagoras-03.png)
 Gambar 5. Ilustrasi dari persamaan Pythagoras
 
-Mungkin di antara kalian masih ada yang belum yakin kalau jumlah luas persegi $a
-^2 dan %b^2 akan sama dengan luas persegi $c^2. Oleh karena itu, mari kita buktikan kalau jumlah luas persegi itu sama.
+Mungkin di antara kalian masih ada yang belum yakin kalau jumlah luas persegi $(a^2)$ dan $(b^2)$ akan sama dengan luas persegi $(c^2)$. Oleh karena itu, mari kita buktikan kalau jumlah luas persegi itu sama.
 
 ![](SegitigaPythagoras-04.png)
 Gambar 6. Pembuktian teorema Pythagoras
 
-Pada Gambar 6, persegi $b^2 dipotong-potong sebagaimana digambarkan, setelahnya, potongan-potongan itu diputar dan dibalik sehingga dapat membentuk persegi yang lebih besar bersama dengan
-persegi $a^2. Nah, persegi baru ini besarnya akan sama dengan besar persegi $c
-^2.
+Pada Gambar 6, persegi $(b^2)$ dipotong-potong sebagaimana digambarkan, setelahnya, potongan-potongan itu diputar dan dibalik sehingga dapat membentuk persegi yang lebih besar bersama dengan
+persegi $(a^2)$. Nah, persegi baru ini besarnya akan sama dengan besar persegi $(c^2)$.
 
 Nah, itu lah teorema Pythagoras, sederhana bukan? Tapi, meskipun sederhana, ini adalah pondasi penting
 dari ilmu geometri. Seperti yang kalian ketahui, segitiga siku-siku dapat kita temui di mana mana. Atap, dudukan
@@ -183,6 +178,7 @@ yang ingin kalian percayai.
 Kalau kalian pikir sekolah Pythagoras semakin jaya setelah ditemukannya teorema tersebut, maka kalian salah. Tanpa diduga-duga, ternyata penemuan teorema
 Pythagoras ini juga merupakan gerbang krisis dari sekolah tersebut. Coba kalian bayangkan sebuah segitiga siku-siku yang panjang alas dan tingginya masing-masing 1. Berapa sisi miringnya? Kalau kalian
 baca bab sebelumnya, tentu saja kalian akan menemukan panjang sisi miringnya √2.
+
 Nah, dari perhitungan tersebut kalian sudah sadar kan
 kalau ini merupakan suatu hal yang gawat? Uh, belum?
 Oke, mari kita ingat bahwa sekolah ini sangat
@@ -190,6 +186,7 @@ mengagungkan bilangan rasional. Sementara, mari kita
 telaah lagi, apakah √2 merupakan bilangan rasional?
 Apakah √2 dapat diekspresikan dengan pecahan? Ya,
 jawaban dari kedua pertanyaan itu adalah bukan.
+
 Penemuan ini melawan filosofi Pythagoras bahwa alam
 semesta bersifat rasional dan dapat diekspresikan
 dengan perbandingan pecahan. Sehingga, tidak lama
@@ -211,6 +208,7 @@ kurangnya peninggalan sejarah yang tersisa (mungkin
 kita harus salahkan Pythagoras yang tidak suka menulis),
 tidak dapat dipungkiri teorema ini merupakan teorema
 fundamental bagi perkembangan ilmu geometri.
+
 Akhir kata, terima kasih telah membaca racauan
 pembahasan terkait teorema Pythagoras ini, mohon maaf
 atas salah kata yang ada, dan selamat menjadi MC di
