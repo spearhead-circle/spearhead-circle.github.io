@@ -215,7 +215,7 @@ atas salah kata yang ada, dan selamat menjadi MC di
 kehidupan masing-masing!
 
 # Daftar Pustaka
-1. aThe Pythagorean Sourcebook and Library: An Anthology of Ancient Writings Which Relate to
+1. The Pythagorean Sourcebook and Library: An Anthology of Ancient Writings Which Relate to
 Pythagoras and Pythagorean Philosophy. (2025). United
 States: Red Wheel Weiser.
 2. Maor, E. (2010). The Pythagorean Theorem: A
