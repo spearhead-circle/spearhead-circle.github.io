@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-![](COVER-PROSPEK KERJA.png)
+![](COVER.png)
 
 **Sinopsis**: Metta, saat kelas 12, tentunya pernah juga bingung memilih jurusan perkuliahan. Sesuai namanya, ia sangat menyenangi matematika. Tapi seperti biasa, tentunya cukup sedikit terlintas di benak Metta untuk mengambil jurusan matematika untuk kuliah. Akan tetapi, banyak orang-orang di sekitar Metta yang berkata "kuliah matematika ngitung-ngitung doang", atau "kuliah matematika prospeknya jadi guru, kalau ga dosen, tau aja gaji dosen berapa...". Banyak yang berkata seperti itu, mulai dari guru BK, tetangga, sampai pegawai BK.
 
