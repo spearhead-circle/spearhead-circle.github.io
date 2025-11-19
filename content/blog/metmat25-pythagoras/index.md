@@ -35,6 +35,7 @@ pergi ke dunia lain dan menjadi MC anime, mari kita ulas
 teorema Pythagoras bersama-sama! 
 
 ![](mcanime.jpg)
+
 Gambar 1. Gambaran MC Anime yang memahami Teorema
 Pythagoras (Paham Teorema Pythagoras tidak membuat hutang
 gorenganmu di kantin sekolah auto lunas)
@@ -108,6 +109,7 @@ bergabung dengan sekolahnya ketika pada saat itu
 wanita masih dilarang untuk bersekolah.
 
 ![](penampilanpythagoras.jpg)
+
 Gambar 2. Penampilan Pythagoras menurut Hearers (ga keliatan coy)
 
 # Penemuan Teorema Pythagoras
@@ -124,6 +126,7 @@ siku dengan panjang sisi a, b, dan c, dengan c adalah sisi miringnya, maka sisi-
 persamaan $`(a^2+b^2=c^2)`$. Untuk lebih jelasnya, kalian bisa melihat gambar di bawah ini
 
 ![](SegitigaPythagorasOutline-01.jpg)
+
 Gambar 3. Segitiga siku-siku
 
 Gambar di atas adalah gambar segitiga siku-siku dengan
@@ -134,6 +137,7 @@ dengan panjang sisi sesuai dengan sisi segitiga yang
 berkaitan seperti gambar berikut.
 
 ![](SegitigaPythagorasOutline-02.jpg)
+
 Gambar 4. Segitiga siku-siku dan persegi berukuran sesuai dengan panjang sisi segitiga yang bersinggungan
 
 Dapat dilihat bahwa persegi yang berada di sebelah kiri
@@ -145,11 +149,13 @@ sisi miringnya, atau secara matematis dapat ditulis $`(a^2+b^2=c^2)`$ dengan a d
 sehingga persamaan tersebut dapat kita gambarkan sebagai berikut.
 
 ![](SegitigaPythagorasOutline-03.jpg)
+
 Gambar 5. Ilustrasi dari persamaan Pythagoras
 
 Mungkin di antara kalian masih ada yang belum yakin kalau jumlah luas persegi $`(a^2)`$ dan $`(b^2)`$ akan sama dengan luas persegi $`(c^2)`$. Oleh karena itu, mari kita buktikan kalau jumlah luas persegi itu sama.
 
 ![](SegitigaPythagorasOutline-04.jpg)
+
 Gambar 6. Pembuktian teorema Pythagoras
 
 Pada Gambar 6, persegi $`(b^2)`$ dipotong-potong sebagaimana digambarkan, setelahnya, potongan-potongan itu diputar dan dibalik sehingga dapat membentuk persegi yang lebih besar bersama dengan
@@ -162,6 +168,7 @@ setelah Pythagoras menemukan teorema ini, saking bahagianya, dia mengadakan syuk
 Pythagoras.
 
 ![](SYUKURAN.jpg)
+
 Gambar 7. Ilustrasi syukuran di sekolah Pythagoras dalam rangka
 telah ditemukannya teorema Pythagoras (Pythagoras di balik tirai seperti biasa)
 
@@ -196,6 +203,7 @@ ditenggelamkan di Laut Mediterania karena
 membocorkan penemuan ini.
 
 ![](HippasusTenggelam.jpg)
+
 Gambar 8. Hippasus yang mati tenggelam di Laut Mediterania
 (hanya ilustrasi, bukan gambar sebenarnya)
 
