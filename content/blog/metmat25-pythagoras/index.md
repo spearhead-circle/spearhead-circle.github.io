@@ -123,7 +123,7 @@ Jadi, inti dari teorema itu adalah, jika ada segitiga siku-
 siku dengan panjang sisi a, b, dan c, dengan c adalah sisi miringnya, maka sisi-sisi tersebut akan memenuhi
 persamaan $(a^2+b^2=c^2)$. Untuk lebih jelasnya, kalian bisa melihat gambar di bawah ini
 
-![](SegitigaPythagoras-01.png)
+![](SegitigaPythagorasOutline-01.jpg)
 Gambar 3. Segitiga siku-siku
 
 Gambar di atas adalah gambar segitiga siku-siku dengan
@@ -133,7 +133,7 @@ Nah, sekarang, untuk setiap sisi segitiga, dibuat persegi
 dengan panjang sisi sesuai dengan sisi segitiga yang
 berkaitan seperti gambar berikut.
 
-![](SegitigaPythagoras-02.png)
+![](SegitigaPythagorasOutline-02.jpg)
 Gambar 4. Segitiga siku-siku dan persegi berukuran sesuai dengan panjang sisi segitiga yang bersinggungan
 
 Dapat dilihat bahwa persegi yang berada di sebelah kiri
@@ -144,12 +144,12 @@ Dari sini, Pythagoras dapat berteori kalau kuadrat dari masing-masing panjang al
 sisi miringnya, atau secara matematis dapat ditulis $(a^2+b^2=c^2)$ dengan a dan b adalah sisi alas dan tinggi segitiga siku-siku, dan c adalah sisi miring segitiga tersebut. Harap ingat bahwa kuadrat dari panjang sisi tersebut sama dengan luas persegi yang bersinggungan,
 sehingga persamaan tersebut dapat kita gambarkan sebagai berikut.
 
-![](SegitigaPythagoras-03.png)
+![](SegitigaPythagorasOutline-03.jpg)
 Gambar 5. Ilustrasi dari persamaan Pythagoras
 
 Mungkin di antara kalian masih ada yang belum yakin kalau jumlah luas persegi $(a^2)$ dan $(b^2)$ akan sama dengan luas persegi $(c^2)$. Oleh karena itu, mari kita buktikan kalau jumlah luas persegi itu sama.
 
-![](SegitigaPythagoras-04.png)
+![](SegitigaPythagorasOutline-04.jpg)
 Gambar 6. Pembuktian teorema Pythagoras
 
 Pada Gambar 6, persegi $(b^2)$ dipotong-potong sebagaimana digambarkan, setelahnya, potongan-potongan itu diputar dan dibalik sehingga dapat membentuk persegi yang lebih besar bersama dengan
