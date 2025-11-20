@@ -300,6 +300,8 @@ buklet ini tipis, kita langsung saja ke inti pertanyaan.
 Ohya, kalau tertarik lebih lanjut tentang beliau, silakan lihat-lihat karya beliau di Twitter: @ChabashiraRibon. Penulis tidak bertanggungjawab
 atas isi konten dari akun tersebut.
 
+![](Koucha.jpg)
+
 F: Furra (penulis), K: Koucha
 
 **F: Jadi kenapa Anda memutuskan "banting setir” menjadi ilustrator? Bagaimana motivasinya?**
