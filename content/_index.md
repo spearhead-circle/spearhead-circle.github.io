@@ -5,7 +5,7 @@
 title = "Spearhead Circle"
 +++
 
-<a href="https://shopee.co.id/shop/449539190">![](images/banner.jpg)</a>
+<a href="https://bit.ly/SPEARHEAD-CF22">![](images/banner.jpg)</a>
 
 <a href="https://shopee.co.id/shop/449539190"><button><div class="thumbnail">![](images/shopee.png)</div>Shopee</button></a>
 <a href="https://www.tokopedia.com/spearheadcircle"><button><div class="thumbnail">![](images/tokped.png)</div>Tokopedia</button></a>
