@@ -5,11 +5,11 @@
 title = "Spearhead Circle"
 +++
 
-<a href="https://bit.ly/SPEARHEAD-CF23">![](images/banner.jpg)</a>
+![](images/banner.jpg)</a>
+![](images/banner2.jpg)</a>
 
-<a href="https://bit.ly/SPEARHEAD-CF23"><button><div class="thumbnail">![](images/spearhead.png)</div>Pre-Order 1 Comic Frontier 23</button></a>
 <a href="https://shopee.co.id/shop/449539190"><button><div class="thumbnail">![](images/shopee.png)</div>Shopee</button></a>
 <a href="https://www.tokopedia.com/spearheadcircle"><button><div class="thumbnail">![](images/tokped.png)</div>Tokopedia</button></a>
-[<button><div class="thumbnail">![](images/spearhead.png)</div>Mettamatika paruh (vol. 0, 1.5, dan 2.5)</button>](blog/mettamatika-paruh)
+[<button><div class="thumbnail">![](images/spearhead.png)</div>Mettamatika paruh (vol. 0, 1.5, 2.5, dan 3.5)</button>](blog/mettamatika-paruh)
 <a href="https://www.facebook.com/profile.php?id=100089620167900"><button><div class="thumbnail">![](images/facebook.png)</div>Facebook: Spearhead Circle</button></a>
 <a href="https://www.instagram.com/spearhead_circle"><button><div class="thumbnail">![](images/instagram.png)</div>Instagram: @spearhead_circle</button></a>
