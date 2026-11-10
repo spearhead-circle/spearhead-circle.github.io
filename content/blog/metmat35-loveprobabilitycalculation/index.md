@@ -13,14 +13,15 @@ tags = [
 
 # Undian Bangku Kelas
 
-今日にすべてを賭けてみる
-席替えが行われる日
-クジ引きで決まる運命
-隣になりますように…
-*"Aku mempertaruhkan segalanya hari ini*
-*Hari ketika tempat duduk kami diacak*
-*Takdir yang ditentukan undian*
-*Semoga aku bisa duduk sebelah dia…"*
+今日にすべてを賭けてみる \
+席替えが行われる日 \
+クジ引きで決まる運命 \
+隣になりますように… \
+
+*"Aku mempertaruhkan segalanya hari ini* \
+*Hari ketika tempat duduk kami diacak* \
+*Takdir yang ditentukan undian* \
+*Semoga aku bisa duduk sebelah dia…"* \
 
 *'Sekelas ada 31 orang… berarti kemungkinan aku bisa sebelahan sama dia…'* Metta bergumam seraya mencoret-coret kertas catatannya.
 
@@ -32,7 +33,7 @@ tags = [
 
 *'Oke, berarti, karena cuma satu orang yang bisa di sebelah dia dan jumlah orang yang mungkin adalah 30 orang... Berarti kemungkinannya 1/30....' *             
 
-ゼロじゃない限りそこにある望み
+ゼロじゃない限りそこにある望み \
 *'Selama kemungkinannya bukan nol, masih ada harapan!'*
 
 *'Yah.. aku kebagiannya di lorong tengah…'* Metta mengeluh dalam hati. 
@@ -63,14 +64,15 @@ Kimberly mengangkat sebelah alisnya, "agak gombal dan mencurigakan ga sih, Fris?
 
 Setelah mencoba berbagai wahana, akhirnya sampailah mereka di rumah hantu. Tapi, karena sudah hampir jam tutup, yang bisa masuk hanya dua orang. Akhirnya mereka mengundi pasangan dengan menggunakan 6 permen: 4 warna hijau, 2 warna merah. Tentu saja yang masuk ke rumah hantu yang dapat warna merah. *'Aduh, semoga aku bisa masuk rumah hantu bareng doi..'*
 
-友達と来た遊園地
-私と彼と あと4人
-お化け屋敷は2人だけ
-さあ キャンディーでクジ引き
-*'Pergi ke taman rekreasi bersama teman-teman*
-*Aku, dia, dan 4 orang lainnya*
-*Rumah hantu cuma untuk dua orang*
-*Ayo kita undi dengan permen!'*
+友達と来た遊園地 \
+私と彼と あと4人 \
+お化け屋敷は2人だけ \
+さあ キャンディーでクジ引き \
+
+*'Pergi ke taman rekreasi bersama teman-teman* \
+*Aku, dia, dan 4 orang lainnya* \
+*Rumah hantu cuma untuk dua orang* \
+*Ayo kita undi dengan permen!'* \
 
 *'Jadi coba kita buat kotak 6x6 mewakili semua kombinasi pasangan… yang pasangan sama diri sendiri yang di diagonalnya dicoret, soalnya ga mungkin kan pasangan sama diri sendiri…'*
 
