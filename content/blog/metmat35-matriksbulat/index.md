@@ -185,7 +185,11 @@ dengan syarat \(-100 ≤a,b,c,d ≤ 100\). Untuk menghitung semua solusinya, kit
 
 ![](grafik.png)
 
+<div align="center">
+
 *terima kasih Val untuk plotnya*
+
+</div>
 
 Nah, dari sini kita bisa lihat bagaimana cara membandingkan dua hal yang 'tak berhingga'; batasi saja intervalnya, lalu lihat perilaku grafiknya. Ohya, kita mungkin bisa lihat grafiknya bertingkah seperti parabola, seperti grafik kuadrat lah. Kita akan bahas ini nanti.
 
@@ -205,7 +209,7 @@ $$\frac{\sigma(|\Delta|)}{|\Delta|} \cdot \frac{96}{\pi^2}H^2$$
 
 Kak kenapa ada pi? Kenapa ada sigma? Buset banyak amat variabelnya? Saya hanya bisa jawab pertanyaan kedua di buklet ini: \(σ(n)\) adalah jumlah dari seluruh faktor positif n. Sebagai contoh, seluruh faktor 67 hanyalah 1 dan 67, jadi \(σ(67)=1+67=68\), tapi seluruh faktor 69 adalah 1, 3, 23, dan 69, jadi \(σ(69)=1+3+23+69=96\). 
 
-Jadi, banyak solusi dari ad-bc=67 akan mirip dengan \(\frac{67}{68}\cdot\frac{96}{\pi^2}H^2, tetapi banyak solusi dari ad-bc=69 akan mirip dengan \(\frac{96}{69}\cdot\frac{96}{\pi^2}H^2\). Ya bisa diuji dari kalkulator bahwa bilangan terakhir akan lebih besar dari bilangan pertama, seperti yang terlihat di hasil numerik di atas. 
+Jadi, banyak solusi dari ad-bc=67 akan mirip dengan \(\frac{67}{68}\cdot\frac{96}{\pi^2}H^2\), tetapi banyak solusi dari ad-bc=69 akan mirip dengan \(\frac{96}{69}\cdot\frac{96}{\pi^2}H^2\). Ya bisa diuji dari kalkulator bahwa bilangan terakhir akan lebih besar dari bilangan pertama, seperti yang terlihat di hasil numerik di atas. 
 
 Berarti makin besar angkanya makin banyak solusi? Kalau dibandingkan antara misalkan 67 dan 6767 ya jelas benar, tapi kalau angka Delta-nya kecil belum tentu. Kayak misalkan saat ad-bc=68, dari hasil saya di atas didapat banyak solusinya akan mirip dengan \(\frac{126}{68}\cdot\frac{96}{\pi^2}H^2\), yang lebih besar dari kasus Δ=69. Jadinya ya besar-kecil fungsinya masih bergantung fungsi sigma juga.
 
@@ -215,6 +219,8 @@ Bagi yang tertarik doksli dari paper ini, silakan merujuk ke:
 
 Afifurrahman, M, A uniform formula on the number of integer matrices with given determinant and height. J. Number Theory 281 (2026), 741–770.
  
+****
+
 ![](wisuda.png)
 
 # Outro
