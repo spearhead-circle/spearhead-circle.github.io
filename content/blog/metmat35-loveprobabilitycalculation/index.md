@@ -1,5 +1,5 @@
 +++
-title = "Mettamatika volume 3,5: Metta's Love Probability Calculation"
+title = "Mettamatika vol. 3,5: Metta's Love Probability Calculation"
 date = "2026-10-31"
 description = "Mettamatika volume 3,5: Metta's Love Probability Calculation"
 tags = [

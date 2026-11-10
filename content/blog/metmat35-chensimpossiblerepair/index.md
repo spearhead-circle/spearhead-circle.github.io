@@ -1,5 +1,5 @@
 +++
-title = "Mettamatika volume 3,5: Chen's Impossible Repair"
+title = "Mettamatika vol. 3,5: Chen's Impossible Repair"
 date = "2026-10-31"
 description = "Mettamatika volume 3,5: Chen's Impossible Repair"
 tags = [

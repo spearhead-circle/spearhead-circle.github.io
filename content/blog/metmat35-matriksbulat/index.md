@@ -1,5 +1,5 @@
 +++
-title = "Mettamatika volume 3,5: Matriks Bulat"
+title = "Mettamatika vol. 3,5: Matriks Bulat"
 date = "2026-10-31"
 description = "Mettamatika volume 3,5: Matriks Bulat"
 tags = [
