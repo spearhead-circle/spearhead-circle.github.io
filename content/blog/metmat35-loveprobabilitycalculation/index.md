@@ -179,7 +179,7 @@ Akhirnya, mereka semua terfokus pada layar HP Metta. Tampilan profil akun Ray te
 
 <div align="center">
 
-もうゼロだ。望みはもうない。
+もうゼロだ。望みはもうない。\
 *'Ternyata nol, sudah tidak ada harapan'*
 
 </div>
